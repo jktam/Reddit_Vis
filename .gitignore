@@ -1,6 +1,6 @@
-Gruntfile
-node_modules/
-/lib/data/
+Gruntfile.js
+node_modules/*
+/lib/data/*
 
 
 #################
