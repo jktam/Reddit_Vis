@@ -1,0 +1,14 @@
+{
+  "name": "grunt-sass-coffeescript",
+  "version": "0.1.0",
+  "repository": "",
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jade": "^1.11.0"
+  }
+}
