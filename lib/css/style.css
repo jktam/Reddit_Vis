@@ -1,0 +1,52 @@
+#myname {
+  color: black;
+  margin-top: 50px;
+}
+
+.titlenav {
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  height: 14px;
+  width: 13px 0;
+  color: #a3a5a8;
+}
+
+#coverimage {
+  max-width: 85%;
+  max-height: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  display: inline-block;
+  width: 100%;
+}
+
+.image {
+  margin-top: 3%;
+  display: block;
+}
+
+.summary, #imagetitle {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+#imagetitle {
+  text-align: center;
+  font-size: 150%;
+  letter-spacing: 0.15em;
+}
+
+.summary {
+  margin-top: 2.5%;
+  padding: 0.5% 3.5%;
+  font-size: 125%;
+}
+
+/*# sourceMappingURL=style.css.map */
