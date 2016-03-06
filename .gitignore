@@ -1,5 +1,7 @@
-*/reddit-top-2.5-million-master/*
-*/reddit-top-2.5-million-master/
+Gruntfile
+node_modules/
+/lib/data/
+
 
 #################
 ## Eclipse
