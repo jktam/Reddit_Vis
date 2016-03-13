@@ -132,13 +132,123 @@
 }
 
 .usermenu {
-  margin: 0 auto;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+  font-size: 20px;
 }
 
 .chart1 {
   background: #29B6F6;
   margin-top: 2.5%;
   height: 760px;
+}
+
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+  height: 100px;
+}
+
+a {
+  color: #6CA6CD;
+}
+a:visited {
+  color: #6CA6CD;
+}
+
+#container {
+  padding-top: 20px;
+  width: 980px;
+  border-left: 2px #ddd solid;
+  border-right: 2px #ddd solid;
+}
+
+header {
+  padding: 10px;
+}
+
+#book-title {
+  font-family: georgia, "times new roman", times, serif;
+  color: #555;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#text-select {
+  float: right;
+  margin-right: 10px;
+}
+
+#bubblecloudvis {
+  overflow: hidden;
+  position: relative;
+}
+
+#status {
+  padding: 0 0 20px 20px;
+}
+
+#bubble-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.bubble-node {
+  fill: #B0E2FF;
+}
+
+.bubble-hover {
+  fill: #E8E9E7;
+}
+
+.bubble-selected {
+  /* fill: #a8c8ee;  */
+  fill: #6CA6CD;
+  /* stroke: #6081a3; */
+  stroke: #6CA6CD;
+  stroke-width: 1.5px;
+}
+
+.active {
+  color: #6CA6CD;
+}
+
+.svg-bubblecloud-container {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: 13px sans-serif;
+}
+
+a.bubble-label {
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+.bubble-label .bubble-label-value {
+  font: 11px sans-serif;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=style.css.map */
