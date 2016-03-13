@@ -21,123 +21,147 @@ d3.csv '!subnames.csv', (csv) ->
   return
 
 ###################################################################################################################
-
+# var current_sub = "AskReddit";
 
 $ ->
   aclist = [
-    '4chan'
-    'AbandonedPorn'
-    'adventuretime'
-    'AdviceAnimals'
-    'AnimalsBeingJerks'
-    'anime'
-    'arresteddevelopment'
-    'AskReddit'
-    'aww'
-    'awwnime'
-    'batman'
-    'battlefield3'
-    'bestof'
-    'breakingbad'
-    'britishproblems'
-    'carporn'
-    'circlejerk'
-    'comicbooks'
-    'comics'
-    'community'
-    'cosplay'
-    'CrazyIdeas'
-    'creepy'
-    'creepyPMs'
-    'cringe'
-    'cringepics'
-    'DaftPunk'
-    'darksouls'
-    'doctorwho'
-    'DoesAnybodyElse'
-    'DotA2'
-    'DunderMifflin'
-    'EarthPorn'
-    'facepalm'
-    'Fallout'
-    'FanTheories'
-    'fatpeoplestories'
-    'fffffffuuuuuuuuuuuu'
-    'FiftyFifty'
-    'firstworldanarchists'
-    'FoodPorn'
-    'funny'
-    'futurama'
-    'gamegrumps'
-    'gameofthrones'
-    'Games'
-    'gaming'
-    'geek'
-    'gifs'
-    'harrypotter'
-    'HIMYM'
-    'hiphopheads'
-    'HistoryPorn'
-    'IAmA'
-    'Jokes'
-    'JusticePorn'
-    'KerbalSpaceProgram'
-    'leagueoflegends'
-    'magicTCG'
-    'MapPorn'
-    'masseffect'
-    'mildlyinfuriating'
-    'mildlyinteresting'
-    'mindcrack'
-    'Minecraft'
-    'movies'
-    'MURICA'
-    'Music'
-    'mylittlepony'
-    'Naruto'
-    'nosleep'
-    'nostalgia'
-    'nottheonion'
-    'OldSchoolCool'
-    'onetruegod'
-    'Pareidolia'
-    'PerfectTiming'
-    'pettyrevenge'
-    'photoshopbattles'
-    'pics'
-    'Planetside'
-    'pokemon'
-    'polandball'
-    'QuotesPorn'
-    'rage'
-    'reactiongifs'
-    'RoomPorn'
-    'roosterteeth'
-    'skyrim'
-    'starcraft'
-    'startrek'
-    'StarWars'
-    'TalesFromRetail'
-    'tf2'
-    'TheLastAirbender'
-    'TheSimpsons'
-    'thewalkingdead'
-    'TrollXChromosomes'
-    'TumblrInAction'
-    'Unexpected'
-    'videos'
-    'wallpapers'
-    'wheredidthesodago'
-    'woahdude'
-    'wow'
-    'WTF'
-    'youtubehaiku'
-    'zelda'
+    {value: '4chan'},
+    {value: 'AbandonedPorn'},
+    {value: 'adventuretime'},
+    {value: 'AdviceAnimals'},
+    {value: 'AnimalsBeingJerks'},
+    {value: 'anime'},
+    {value: 'arresteddevelopment'},
+    {value: 'AskReddit'},
+    {value: 'aww'},
+    {value: 'awwnime'},
+    {value: 'batman'},
+    {value: 'battlefield3'},
+    {value: 'bestof'},
+    {value: 'breakingbad'},
+    {value: 'britishproblems'},
+    {value: 'carporn'},
+    {value: 'circlejerk'},
+    {value: 'comicbooks'},
+    {value: 'comics'},
+    {value: 'community'},
+    {value: 'cosplay'},
+    {value: 'CrazyIdeas'},
+    {value: 'creepy'},
+    {value: 'creepyPMs'},
+    {value: 'cringe'},
+    {value: 'cringepics'},
+    {value: 'DaftPunk'},
+    {value: 'darksouls'},
+    {value: 'doctorwho'},
+    {value: 'DoesAnybodyElse'},
+    {value: 'DotA2'},
+    {value: 'DunderMifflin'},
+    {value: 'EarthPorn'},
+    {value: 'facepalm'},
+    {value: 'Fallout'},
+    {value: 'FanTheories'},
+    {value: 'fatpeoplestories'},
+    {value: 'fffffffuuuuuuuuuuuu'},
+    {value: 'FiftyFifty'},
+    {value: 'firstworldanarchists'},
+    {value: 'FoodPorn'},
+    {value: 'funny'},
+    {value: 'futurama'},
+    {value: 'gamegrumps'},
+    {value: 'gameofthrones'},
+    {value: 'Games'},
+    {value: 'gaming'},
+    {value: 'geek'},
+    {value: 'gifs'},
+    {value: 'harrypotter'},
+    {value: 'HIMYM'},
+    {value: 'hiphopheads'},
+    {value: 'HistoryPorn'},
+    {value: 'IAmA'},
+    {value: 'Jokes'},
+    {value: 'JusticePorn'},
+    {value: 'KerbalSpaceProgram'},
+    {value: 'leagueoflegends'},
+    {value: 'magicTCG'},
+    {value: 'MapPorn'},
+    {value: 'masseffect'},
+    {value: 'mildlyinfuriating'},
+    {value: 'mildlyinteresting'},
+    {value: 'mindcrack'},
+    {value: 'Minecraft'},
+    {value: 'movies'},
+    {value: 'MURICA'},
+    {value: 'Music'},
+    {value: 'mylittlepony'},
+    {value: 'Naruto'},
+    {value: 'nosleep'},
+    {value: 'nostalgia'},
+    {value: 'nottheonion'},
+    {value: 'OldSchoolCool'},
+    {value: 'onetruegod'},
+    {value: 'Pareidolia'},
+    {value: 'PerfectTiming'},
+    {value: 'pettyrevenge'},
+    {value: 'photoshopbattles'},
+    {value: 'pics'},
+    {value: 'Planetside'},
+    {value: 'pokemon'},
+    {value: 'polandball'},
+    {value: 'QuotesPorn'},
+    {value: 'rage'},
+    {value: 'reactiongifs'},
+    {value: 'RoomPorn'},
+    {value: 'roosterteeth'},
+    {value: 'skyrim'},
+    {value: 'starcraft'},
+    {value: 'startrek'},
+    {value: 'StarWars'},
+    {value: 'TalesFromRetail'},
+    {value: 'tf2'},
+    {value: 'TheLastAirbender'},
+    {value: 'TheSimpsons'},
+    {value: 'thewalkingdead'},
+    {value: 'TrollXChromosomes'},
+    {value: 'TumblrInAction'},
+    {value: 'Unexpected'},
+    {value: 'videos'},
+    {value: 'wallpapers'},
+    {value: 'wheredidthesodago'},
+    {value: 'woahdude'},
+    {value: 'wow'},
+    {value: 'WTF'},
+    {value: 'youtubehaiku'},
+    {value: 'zelda'}
   ]
-  $('#autocomp').autocomplete source: aclist
-  return
+  $('#autocomp').autocomplete(
+    source: aclist
+    focus: (event, ui) ->
+      $('#autocomp').val ui.item.value
+      false
+    select: (event, ui) ->
+      console.log ui.item.value
+      false
+      
+  )
 
 
+
+
+# $('#project').autocomplete(
+#   minLength: 0
+#   source: projects
+#   focus: (event, ui) ->
+#     $('#project').val ui.item.label
+#     false
+#   select: (event, ui) ->
+#     $('#project').val ui.item.label
+#     $('#project-id').val ui.item.value
+#     $('#project-description').html ui.item.desc
+#     $('#project-icon').attr 'src', 'images/' + ui.item.icon
+#     false
+# ).autocomplete('instance')._renderItem = (ul, item) ->
+#   $('<li>').append('<a>' + item.label + '<br>' + item.desc + '</a>').appendTo ul
 ###################################################################################################################
 # HEATMAP
 
@@ -171,12 +195,12 @@ $ ->
 #   data = null
 #   dayOffset = 0
 #   colorCalibration = [
-#     '#ffffb2'
-#     '#fed976'
-#     '#feb24c'
-#     '#fd8d3c'
-#     '#f03b20'
-#     '#bd0026'
+#  '#ffffb2'
+#  '#fed976'
+#  '#feb24c'
+#  '#fd8d3c'
+#  '#f03b20'
+#  '#bd0026'
 #   ]
 #   dailyValueExtent = {}
 #   #axises and scales
