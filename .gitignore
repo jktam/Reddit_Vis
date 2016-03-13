@@ -220,3 +220,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
+*.scssc
+lib/css/style.css.map
+lib/css/style.css.map

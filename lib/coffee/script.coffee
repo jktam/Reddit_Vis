@@ -5,7 +5,7 @@ reset = false
 Bubbles = () ->
   # standard variables accessible to
   # the rest of the functions inside Bubbles
-  width = 980
+  width = 1500
   height = 510
   data = []
   node = null
@@ -20,7 +20,9 @@ Bubbles = () ->
   # I've abstracted the data value used to size each
   # into its own function. This should make it easy
   # to switch out the underlying dataset
-  rValue = (d) -> parseFloat(d.tfidf)
+  rValue = (d) -> 
+    console.log d
+    parseFloat(d.tfidf)
 
   # function to define the 'id' of a data element
   #  - used to bind the data uniquely to the force nodes
@@ -325,7 +327,7 @@ Bubbles = () ->
   click = (d) ->
     location.replace("#" + encodeURIComponent(idValue(d)))
     d3.event.preventDefault()
-    console.log d
+    # console.log d
 
   # ---
   # called when url after the # changes
@@ -541,6 +543,7 @@ $ ->
   # data is loaded
   # ---
   display = (data) ->
+    console.log data
     plotData("#bubblecloudvis", data, plot)
 
   # we are storing the current text in the search component
