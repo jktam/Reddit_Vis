@@ -92,11 +92,29 @@
 .usermenu{
 	// display: inline-block;
 	// vertical-align: baseline;
-	margin: 0 auto;
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+	font-size: 20px;
 }
 
 .chart1{
 	background: #29B6F6;
 	margin-top: 2.5%;
 	height: 760px;
+}
+
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+
+* html .ui-autocomplete {
+  height: 100px;
 }
