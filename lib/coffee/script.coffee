@@ -745,12 +745,12 @@ $ ->
 drawBar = (csvName) ->
   margin = 
     top: 40
-    right: 20
-    bottom: 30
-    left: 40
+    right: 40
+    bottom: 150
+    left: 75
   width = 960 - (margin.left) - (margin.right)
   height = 500 - (margin.top) - (margin.bottom)
-  formatPercent = d3.format('05d')
+  formatPercent = d3.format('4d')
   x = d3.scale.ordinal().rangeRoundBands([
     0
     width
@@ -788,7 +788,7 @@ drawBar = (csvName) ->
       )
     ]
     svg2.append('g').attr('class', 'x axis').attr('transform', 'translate(0,' + height + ')').call(xAxis).selectAll('text').style('text-anchor', 'end').attr('dx', '-.8em').attr('dy', '.15em').attr 'transform', 'rotate(-90)'
-    svg2.append('g').attr('class', 'y axis').call(yAxis).append('text').attr('transform', 'rotate(-90)').attr('y', 6).attr('dy', '.71em').style('text-anchor', 'end').text 'Score'
+    svg2.append('g').attr('class', 'y axis').call(yAxis).append('text').attr('transform', 'rotate(-90)').attr('y', -70).attr('x', -150).attr('dy', '.71em').style('text-anchor', 'end').text 'Score'
     svg2.selectAll('.bar').data(data).enter().append('rect').attr('class', 'bar').attr('x', (d) ->
       x d.word
     ).attr('width', x.rangeBand()).attr('y', (d) ->
