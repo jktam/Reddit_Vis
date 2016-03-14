@@ -348,4 +348,27 @@ text.axis-workweek, text.axis-worktime {
   fill: #1D91C0;
 }
 
+th, td {
+  padding: 10px;
+  border: 0;
+}
+
+#titlelist {
+  padding: 80px;
+}
+
+#titletable {
+  width: 100%;
+  letter-spacing: .10em;
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+}
+
+.x.axis {
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+}
+
+.y.axis {
+  font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
