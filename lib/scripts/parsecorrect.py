@@ -12,7 +12,9 @@ for file in dirs:
 
         data = json.load(data_file)
         for dic in data['data']:
-            tempstring = str(int(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime('%w'))+ 1) + str(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime(',%H')).lstrip('0') 
+            tempstring = str(int(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime('%w'))+ 1) + "," + str(int(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime('%H')) + 1)
+
+
             result[tempstring] += int(dic['value']['count'])
 
         with open("C:/Users/ccch/Documents/GitHub/Reddit_Vis/lib/timescore_csv"+ "/" + filename + ".csv", 'w', newline = '') as csvfile:
