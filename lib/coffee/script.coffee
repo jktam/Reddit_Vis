@@ -430,13 +430,12 @@ root.updateList = (d) ->
         window.titleArray.push(entry)
     )
   
-  selectedtext = ""
-  selectedtext = "<ul style=\"list-style-type:none\"> " 
+  selectedtext = "<table id = \"titletable\"> <tr><th>Score</th><th>Title</th> </tr> " 
   window.titleArray.forEach((entry) ->
-    selectedtext = selectedtext + "<li>" +entry.score + "   " + entry.title+ "</li>"
+    selectedtext = selectedtext + "<tr><td>" + entry.score + "</td><td>" + entry.title + "</td></tr>" 
   )
-  selectedtext = selectedtext + "</ul>"
-  d3.select('#status').html(selectedtext)
+  selectedtext = selectedtext + "</table>"
+  d3.select('#titlelist').html(selectedtext)
 ###################################################################################################################
 # var current_sub = "AskReddit";
 $ ->
@@ -780,8 +779,6 @@ drawBar = (csvName) ->
   idValue = (d) -> d.word
 
   click = (d) ->
-    console.log d
-    console.log d.word
     updateList (d)
 
 
