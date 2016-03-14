@@ -5,8 +5,8 @@ reset = false
 Bubbles = () ->
   # standard variables accessible to
   # the rest of the functions inside Bubbles
-  width = 1500
-  height = 510
+  width = screen.width
+  height = 350#510
   data = []
   node = null
   label = null
@@ -585,7 +585,7 @@ drawheat = (csvName) ->
     right: 0
     bottom: 100
     left: 30
-  width = 960 - (margin.left) - (margin.right)
+  width = screen.width/2.5 - (margin.left) - (margin.right)
   height = 430 - (margin.top) - (margin.bottom)
   gridSize = Math.floor(width / 24)
   legendElementWidth = gridSize * 2
@@ -696,10 +696,10 @@ drawheat = (csvName) ->
 drawBar = (csvName) ->
   margin = 
     top: 40
-    right: 40
+    right: 30
     bottom: 150
     left: 75
-  width = 960 - (margin.left) - (margin.right)
+  width = screen.width/2.5 - (margin.left) - (margin.right)
   height = 500 - (margin.top) - (margin.bottom)
   formatPercent = d3.format('4d')
   x = d3.scale.ordinal().rangeRoundBands([
