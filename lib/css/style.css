@@ -298,7 +298,7 @@ a.bubble-label {
 
 #barchart {
   max-width: 49%;
-  max-height: 50%;
+  max-height: 100%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -325,6 +325,20 @@ body {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width: 2px;
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+text.axis-workweek, text.axis-worktime {
+  fill: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
