@@ -271,7 +271,7 @@
 }
 
 #barchart{
-    max-width: 50%;
+    max-width: 49%;
     max-height: 50%;
     display: inline-block;
     margin-left: auto;
@@ -291,4 +291,12 @@ body {
   background-repeat: repeat;
   margin: 0;
   min-width: 980px;
+}
+
+#heatmap{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
