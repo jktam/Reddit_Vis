@@ -1,4 +1,6 @@
 ###################################################################################################################
+window.titleList = undefined
+window.titleArray = []
 
 root = exports ? this
 reset = false
@@ -10,7 +12,7 @@ Bubbles = () ->
   data = []
   node = null
   label = null
-  margin = {top: 5, right: 0, bottom: 0, left: 0}
+  margin = {top: 5, right: 0, bottom: 0, left: 100}
   # largest size for our bubbles
   maxRadius = 50
 
@@ -325,8 +327,20 @@ Bubbles = () ->
   # ---
   click = (d) ->
     location.replace("#" + encodeURIComponent(idValue(d)))
-    d3.event.preventDefault()
-    # console.log d
+    updateList(d)
+    # window.titleArray = []
+    # window.titleList.forEach((entry) -> 
+    #     if entry.title.toLowerCase().indexOf(d.word) != -1
+    #       window.titleArray.push(entry)
+    #   )
+    
+    # selectedtext = ""
+    # selectedtext = "<ul style=\"list-style-type:none\"> " 
+    # window.titleArray.forEach((entry) ->
+    #   selectedtext = selectedtext + "<li>" +entry.score + "   " + entry.title+ "</li>"
+    # )
+    # selectedtext = selectedtext + "</ul>"
+    # d3.select('#status').html(selectedtext)
 
   # ---
   # called when url after the # changes
@@ -341,10 +355,10 @@ Bubbles = () ->
   updateActive = (id) ->
     node.classed("bubble-selected", (d) -> id == idValue(d))
     # if no node is selected, id will be empty
-    if id.length > 0
-      d3.select("#status").html("<h3>The word <span class=\"active\">#{id}</span> is now active</h3>")
-    else
-      d3.select("#status").html("<h3>No word is active</h3>")
+    # if id.length > 0
+    #   d3.select("#status").html("<h3>The word <span class=\"active\">#{id}</span> is now active</h3>")
+    # else
+    #   d3.select("#status").html("<h3>No word is active</h3>")
 
   # ---
   # hover event
@@ -409,9 +423,22 @@ root.plotData = (selector, data, plot) ->
     .datum(data)
     .call(plot)
 
+root.updateList = (d) ->
+  window.titleArray = []
+  window.titleList.forEach((entry) -> 
+      if entry.title.toLowerCase().indexOf(d.word) != -1
+        window.titleArray.push(entry)
+    )
+  
+  selectedtext = ""
+  selectedtext = "<ul style=\"list-style-type:none\"> " 
+  window.titleArray.forEach((entry) ->
+    selectedtext = selectedtext + "<li>" +entry.score + "   " + entry.title+ "</li>"
+  )
+  selectedtext = selectedtext + "</ul>"
+  d3.select('#status').html(selectedtext)
 ###################################################################################################################
 # var current_sub = "AskReddit";
-
 $ ->
   aclist = [
     {value: '4chan'},
@@ -529,6 +556,8 @@ $ ->
       $('#autocomp').val ui.item.value
       false
     select: (event, ui) ->
+      d3.csv "titlescoredate_csv/"+ui.item.value+".csv", (data) ->
+        window.titleList = data
       d3.select("svg").remove()
       d3.select("#barchartsvg").remove()
       d3.select("#heatmapsvg").remove()
@@ -537,6 +566,7 @@ $ ->
       d3.csv("tfidf_csv/"+ui.item.value+".csv", display)
       drawBar(ui.item.value)
       drawheat(ui.item.value)
+
       false
 
   plot = Bubbles()
