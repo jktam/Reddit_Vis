@@ -1,13 +1,15 @@
 import json, os, datetime, csv
 from collections import defaultdict
 
-result = defaultdict(int)
 path = "C:/Users/ccch/Documents/GitHub/Reddit_Vis/lib/timescore_json"
 dirs = os.listdir( path )
+result = defaultdict(int)
 
 for file in dirs:
     filename = file.split('.',1)[0]
     with open(path + "/" + file) as data_file:
+        result.clear()
+
         data = json.load(data_file)
         for dic in data['data']:
             tempstring = str(int(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime('%w'))+ 1) + str(datetime.datetime.fromtimestamp(int(dic['timestamp'])).strftime(',%H')).lstrip('0') 
