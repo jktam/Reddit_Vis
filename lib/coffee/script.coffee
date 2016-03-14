@@ -667,7 +667,6 @@ drawheat = (csvName) ->
     '12p'
   ]
   filename = 'timescore_csv/' + csvName + '.csv'
-  console.log 'before reading csv'
   d3.csv filename, ((d) ->
     {
       day: +d.day
@@ -756,8 +755,7 @@ drawBar = (csvName) ->
     d
 
   svg2.call tip
-  filename = 'topwords4_csv/' + csvName + ".csv"
-  console.log filename
+  filename = 'topwords4_csv/'  + csvName + ".csv"
   d3.csv filename, type, (error, data) ->
     x.domain data.map((d) ->
       d.word
@@ -782,18 +780,10 @@ drawBar = (csvName) ->
   idValue = (d) -> d.word
 
   click = (d) ->
-    location.replace("#" + encodeURIComponent(idValue(d)))
-    d3.event.preventDefault()
+    console.log d
+    console.log d.word
+    updateList (d)
 
-
-
-  updateActive = (id) ->
-    node.classed("bar-selected", (d) -> id == idValue(d))
-    # if no node is selected, id will be empty
-    if id.length > 0
-      d3.select("#status").html("<h3>The word <span class=\"active\">#{id}</span> is now active</h3>")
-    else
-      d3.select("#status").html("<h3>No word is active</h3>")
 
 # jQuery('.bar').click ->
 #   jQuery(this).toggleClass 'active'
