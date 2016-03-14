@@ -531,9 +531,12 @@ $ ->
     select: (event, ui) ->
       d3.select("svg").remove()
       d3.select("#barchartsvg").remove()
+      d3.select("#heatmapsvg").remove()
+
       plot = Bubbles()
       d3.csv("tfidf_csv/"+ui.item.value+".csv", display)
       drawBar(ui.item.value)
+      drawheat(ui.item.value)
       false
 
   plot = Bubbles()
@@ -576,168 +579,116 @@ $ ->
 ###################################################################################################################
 # HEATMAP
 
-# filterHeat = (color) ->
-#   d3.selectAll('rect').each (d, i) ->
-#     if d3.select(this).attr("fill") is color and d3.select(this).attr("class") is 'partofheatmap'
-#       d3.select(this).attr('id', d3.select(this).attr("fill")) #sets id to its original color and then filters it out
-#       # d3.select(this).attr('fill', '#ffffff')
-#       d3.select(this).transition().duration(1000).attr('fill', '#ffffff')
-#     else if d3.select(this).attr("id") == color and d3.select(this).attr("fill") == "#ffffff"
-#       d3.select(this).transition().duration(1000).attr('fill', d3.select(this).attr('id'))
-
-# do ->
-#   #UI configuration
-#   itemSize = 24
-#   cellSize = itemSize - 1
-#   width = 750
-#   height = 630
-#   margin = 
-#     top: 20
-#     right: 20
-#     bottom: 20
-#     left: 25
-#   #formats
-#   hourFormat = d3.time.format('%H')
-#   dayFormat = d3.time.format('%j')
-#   timeFormat = d3.time.format('%Y-%m-%dT%X')
-#   monthDayFormat = d3.time.format('day %d')
-#   #data vars for rendering
-#   dateExtent = null
-#   data = null
-#   dayOffset = 0
-#   colorCalibration = [
-#  '#ffffb2'
-#  '#fed976'
-#  '#feb24c'
-#  '#fd8d3c'
-#  '#f03b20'
-#  '#bd0026'
-#   ]
-#   dailyValueExtent = {}
-#   #axises and scales
-#   axisWidth = 0
-#   axisHeight = itemSize * 24 #24 hours
-#   xAxisScale = d3.time.scale()
-#   xAxis = d3.svg.axis().orient('top').ticks(d3.time.days, 3).tickFormat(monthDayFormat)
-#   yAxisScale = d3.scale.linear().range([
-#     0
-#     axisHeight
-#   ]).domain([
-#     0
-#     24
-#   ])
-#   yAxis = d3.svg
-#     .axis().orient('left')
-#     .ticks(5)
-#     .tickFormat(d3.format("02d"))
-#     .scale(yAxisScale)
-
-#   initCalibration = ->
-#     d3.select('[role="calibration"] [role="example"]').select('svg')
-#       .selectAll('rect')
-#       .data(colorCalibration)
-#       .enter()
-#       .append('rect')
-#       .attr('width', cellSize)
-#       .attr('class', 'partoflegend')
-#       .attr('height', cellSize)
-#       .on('click', (d) ->
-#         filterHeat(d)
-#       ).attr('x', (d, i) ->
-#         i * itemSize
-#     ).attr 'fill', (d) ->
-#       d
-#     #bind click event
-#     d3.selectAll('[role="calibration"] [name="displayType"]').on 'click', ->
-#       renderColor()
-#       return
-#     return
-
-#   renderColor = ->
-#     renderByCount = document.getElementsByName('displayType')[0].checked
-#     rect.filter((d) ->
-#       d.value['count'] >= 0
-#     ).transition().delay((d) ->
-#       (dayFormat(d.date) - dayOffset) * 15
-#     ).duration(500).attrTween 'fill', (d, i, a) ->
-#       #choose color dynamicly      
-#       colorIndex = d3.scale.quantize().range([
-#         0
-#         1
-#         2
-#         3
-#         4
-#         5
-#       ]).domain(if renderByCount then [
-#         0
-#         1000
-#       ] else dailyValueExtent[d.day])
-#       d3.interpolate a, colorCalibration[colorIndex(d.value['count'])]   
-#     return
-
-#   initCalibration()
-#   svg = d3.select('[role="heatmap"]')
-#   heatmap = svg
-#     .attr('width', width)
-#     .attr('height', height).append('g')
-#     .attr('width', width - (margin.left) - (margin.right)).attr('height', height - (margin.top) - (margin.bottom))
-#     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-#   rect = null
-#   d3.json 'data/final.json', (err, data) ->
-#     data = data.data
-#     data.forEach (valueObj) ->
-#       valueObj['date'] = timeFormat.parse(valueObj['timestamp'])
-#       day = valueObj['day'] = monthDayFormat(valueObj['date'])
-#       dayData = dailyValueExtent[day] = dailyValueExtent[day] or [
-#         1000
-#         -1
-#       ]
-#       killcountValue = valueObj['value']['count']
-#       dayData[0] = d3.min([
-#         dayData[0]
-#         killcountValue
-#       ])
-#       dayData[1] = d3.max([
-#         dayData[1]
-#         killcountValue
-#       ])
-#       return
-#     dateExtent = d3.extent(data, (d) ->
-#       d.date
-#     ) #gets our date range
-#     axisWidth = itemSize * (dayFormat(dateExtent[1]) - dayFormat(dateExtent[0]) + 1)
-#     #render axises
-#     xAxis.scale xAxisScale.range([
-#       0
-#       axisWidth
-#     ]).domain([
-#       dateExtent[0]
-#       dateExtent[1]
-#     ])
-#     svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')').attr('class', 'x axis').call(xAxis).append('text').text('date').attr 'transform', 'translate(' + axisWidth + ',-10)'
-#     svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')').attr('class', 'y axis').call(yAxis).append('text').text('time').attr 'transform', 'translate(-10,' + axisHeight + ') rotate(-90)'
-#     #render heatmap rects
-#     dayOffset = dayFormat(dateExtent[0])
-#     rect = heatmap
-#       .selectAll('rect')
-#       .data(data)
-#       .enter()
-#       .append('rect')
-#       .attr('width', cellSize)
-#       .attr('height', cellSize)
-#       .attr('x', (d) ->
-#         itemSize * (dayFormat(d.date) - dayOffset)
-#     ).attr('y', (d) ->
-#       hourFormat(d.date) * itemSize
-#     ).attr('class', 'partofheatmap')
-#     .attr('fill', '#ffffff')
-#     rect.filter((d) ->
-#       d.value['count'] > 0
-#     ).append('title').text (d) ->
-#       monthDayFormat(d.date) + ', kills: ' + d.value['count'] #mouseover shows date and count  
-#     renderColor()
-#     return
-#   return
+drawheat = (csvName) ->
+  margin = 
+    top: 50
+    right: 0
+    bottom: 100
+    left: 30
+  width = 960 - (margin.left) - (margin.right)
+  height = 430 - (margin.top) - (margin.bottom)
+  gridSize = Math.floor(width / 24)
+  legendElementWidth = gridSize * 2
+  buckets = 9
+  colors = [
+    '#ffffd9'
+    '#edf8b1'
+    '#c7e9b4'
+    '#7fcdbb'
+    '#41b6c4'
+    '#1d91c0'
+    '#225ea8'
+    '#253494'
+    '#081d58'
+  ]
+  days = [
+    'Mo'
+    'Tu'
+    'We'
+    'Th'
+    'Fr'
+    'Sa'
+    'Su'
+  ]
+  times = [
+    '1a'
+    '2a'
+    '3a'
+    '4a'
+    '5a'
+    '6a'
+    '7a'
+    '8a'
+    '9a'
+    '10a'
+    '11a'
+    '12a'
+    '1p'
+    '2p'
+    '3p'
+    '4p'
+    '5p'
+    '6p'
+    '7p'
+    '8p'
+    '9p'
+    '10p'
+    '11p'
+    '12p'
+  ]
+  filename = 'timescore_csv/' + csvName + '.csv'
+  console.log 'before reading csv'
+  d3.csv filename, ((d) ->
+    {
+      day: +d.day
+      hour: +d.hour
+      value: +d.value
+    }
+  ), (error, data) ->
+    colorScale = d3.scale.quantile().domain([
+      0
+      buckets - 1
+      d3.max(data, (d) ->
+        d.value
+      )
+    ]).range(colors)
+    svg3 = d3.select('#heatmap').append('svg').attr('id', 'heatmapsvg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+    dayLabels = svg3.selectAll('.dayLabel').data(days).enter().append('text').text((d) ->
+      d
+    ).attr('x', 0).attr('y', (d, i) ->
+      i * gridSize
+    ).style('text-anchor', 'end').attr('transform', 'translate(-6,' + gridSize / 1.5 + ')').attr('class', (d, i) ->
+      if i >= 0 and i <= 4 then 'dayLabel mono axis axis-workweek' else 'dayLabel mono axis'
+    )
+    timeLabels = svg3.selectAll('.timeLabel').data(times).enter().append('text').text((d) ->
+      d
+    ).attr('x', (d, i) ->
+      i * gridSize
+    ).attr('y', 0).style('text-anchor', 'middle').attr('transform', 'translate(' + gridSize / 2 + ', -6)').attr('class', (d, i) ->
+      if i >= 7 and i <= 16 then 'timeLabel mono axis axis-worktime' else 'timeLabel mono axis'
+    )
+    heatMap = svg3.selectAll('.hour').data(data).enter().append('rect').attr('x', (d) ->
+      (d.hour - 1) * gridSize
+    ).attr('y', (d) ->
+      (d.day - 1) * gridSize
+    ).attr('rx', 4).attr('ry', 4).attr('class', 'hour bordered').attr('width', gridSize).attr('height', gridSize).style('fill', colors[0])
+    heatMap.transition().duration(1000).style 'fill', (d) ->
+      colorScale d.value
+    heatMap.append('title').text (d) ->
+      d.value
+    legend = svg3.selectAll('.legend').data([ 0 ].concat(colorScale.quantiles()), (d) ->
+      d
+    ).enter().append('g').attr('class', 'legend')
+    legend.append('rect').attr('x', (d, i) ->
+      legendElementWidth * i
+    ).attr('y', height).attr('width', legendElementWidth).attr('height', gridSize / 2).style 'fill', (d, i) ->
+      colors[i]
+    legend.append('text').attr('class', 'mono').text((d) ->
+      '≥ ' + Math.round(d)
+    ).attr('x', (d, i) ->
+      legendElementWidth * i
+    ).attr 'y', height + gridSize
+    return
 
 #############################################
   
