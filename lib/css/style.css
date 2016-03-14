@@ -264,7 +264,10 @@ a.bubble-label {
   fill: #6CA6CD;
 }
 .bar:hover {
-  fill: #29B6F6;
+  fill: #B0E2FF;
+}
+.bar:active {
+  fill: #1D91C0;
 }
 
 .x.axis path {
@@ -339,6 +342,10 @@ text.mono {
 }
 text.axis-workweek, text.axis-worktime {
   fill: #000;
+}
+
+.bar-selected {
+  fill: #1D91C0;
 }
 
 /*# sourceMappingURL=style.css.map */

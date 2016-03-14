@@ -746,5 +746,28 @@ drawBar = (csvName) ->
       y d.score
     ).attr('height', (d) ->
       height - y(d.score)
-    ).on('mouseover', tip.show).on 'mouseout', tip.hide
+    ).on('mouseover', tip.show).on( 'mouseout', tip.hide ).on('click', click)
     return
+
+  idValue = (d) -> d.word
+
+  click = (d) ->
+    location.replace("#" + encodeURIComponent(idValue(d)))
+    d3.event.preventDefault()
+
+
+
+  updateActive = (id) ->
+    node.classed("bar-selected", (d) -> id == idValue(d))
+    # if no node is selected, id will be empty
+    if id.length > 0
+      d3.select("#status").html("<h3>The word <span class=\"active\">#{id}</span> is now active</h3>")
+    else
+      d3.select("#status").html("<h3>No word is active</h3>")
+
+# jQuery('.bar').click ->
+#   jQuery(this).toggleClass 'active'
+#   return
+# $('bar').one 'mouseover', ->
+#   $('bar').addClass 'bar-selected'
+#   return

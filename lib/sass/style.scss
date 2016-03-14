@@ -237,7 +237,10 @@
 .bar {
   fill: #6CA6CD;
   &:hover {
-    fill: #29B6F6;
+    fill: #B0E2FF;
+  }
+  &:active {
+    fill: #1D91C0;
   }
 }
 
@@ -315,4 +318,8 @@ text {
   &.axis-workweek, &.axis-worktime {
     fill: #000;
   }
+}
+
+.bar-selected {
+    fill: #1D91C0;
 }
