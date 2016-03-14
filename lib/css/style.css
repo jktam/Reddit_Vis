@@ -260,10 +260,10 @@ a.bubble-label {
 }
 
 .bar {
-  fill: orange;
+  fill: #6CA6CD;
 }
 .bar:hover {
-  fill: orangered;
+  fill: #29B6F6;
 }
 
 .x.axis path {

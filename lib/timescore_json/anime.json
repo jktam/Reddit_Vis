@@ -1,0 +1,2003 @@
+{
+"data":[
+{"timestamp": "1353850005", "value":
+{"count": 2802}},
+{"timestamp": "1363103302", "value":
+{"count": 2722}},
+{"timestamp": "1350142557", "value":
+{"count": 2450}},
+{"timestamp": "1362018809", "value":
+{"count": 2389}},
+{"timestamp": "1357546752", "value":
+{"count": 2350}},
+{"timestamp": "1326595127", "value":
+{"count": 2340}},
+{"timestamp": "1346217397", "value":
+{"count": 2329}},
+{"timestamp": "1361390869", "value":
+{"count": 2308}},
+{"timestamp": "1351889157", "value":
+{"count": 2244}},
+{"timestamp": "1365792881", "value":
+{"count": 2209}},
+{"timestamp": "1351620504", "value":
+{"count": 2104}},
+{"timestamp": "1347851212", "value":
+{"count": 2095}},
+{"timestamp": "1349272481", "value":
+{"count": 2073}},
+{"timestamp": "1376153420", "value":
+{"count": 2041}},
+{"timestamp": "1375890741", "value":
+{"count": 2028}},
+{"timestamp": "1342616188", "value":
+{"count": 1991}},
+{"timestamp": "1346714029", "value":
+{"count": 1967}},
+{"timestamp": "1344126283", "value":
+{"count": 1966}},
+{"timestamp": "1366209877", "value":
+{"count": 1895}},
+{"timestamp": "1369862885", "value":
+{"count": 1878}},
+{"timestamp": "1366579173", "value":
+{"count": 1828}},
+{"timestamp": "1376413284", "value":
+{"count": 1822}},
+{"timestamp": "1376349773", "value":
+{"count": 1806}},
+{"timestamp": "1354104357", "value":
+{"count": 1800}},
+{"timestamp": "1374666343", "value":
+{"count": 1779}},
+{"timestamp": "1370200322", "value":
+{"count": 1765}},
+{"timestamp": "1352355418", "value":
+{"count": 1746}},
+{"timestamp": "1359564704", "value":
+{"count": 1716}},
+{"timestamp": "1333422532", "value":
+{"count": 1714}},
+{"timestamp": "1372968899", "value":
+{"count": 1693}},
+{"timestamp": "1368133807", "value":
+{"count": 1692}},
+{"timestamp": "1364903189", "value":
+{"count": 1650}},
+{"timestamp": "1370866771", "value":
+{"count": 1648}},
+{"timestamp": "1343808388", "value":
+{"count": 1643}},
+{"timestamp": "1335461408", "value":
+{"count": 1635}},
+{"timestamp": "1341840394", "value":
+{"count": 1624}},
+{"timestamp": "1350056894", "value":
+{"count": 1615}},
+{"timestamp": "1348284212", "value":
+{"count": 1606}},
+{"timestamp": "1354045837", "value":
+{"count": 1609}},
+{"timestamp": "1359793821", "value":
+{"count": 1607}},
+{"timestamp": "1374057845", "value":
+{"count": 1598}},
+{"timestamp": "1356186486", "value":
+{"count": 1594}},
+{"timestamp": "1349048095", "value":
+{"count": 1593}},
+{"timestamp": "1373823658", "value":
+{"count": 1585}},
+{"timestamp": "1360877075", "value":
+{"count": 1583}},
+{"timestamp": "1371221765", "value":
+{"count": 1574}},
+{"timestamp": "1350499790", "value":
+{"count": 1563}},
+{"timestamp": "1354462780", "value":
+{"count": 1563}},
+{"timestamp": "1355878773", "value":
+{"count": 1539}},
+{"timestamp": "1369971182", "value":
+{"count": 1529}},
+{"timestamp": "1362096695", "value":
+{"count": 1527}},
+{"timestamp": "1336255612", "value":
+{"count": 1519}},
+{"timestamp": "1353548248", "value":
+{"count": 1514}},
+{"timestamp": "1346528540", "value":
+{"count": 1512}},
+{"timestamp": "1349081458", "value":
+{"count": 1514}},
+{"timestamp": "1375131592", "value":
+{"count": 1474}},
+{"timestamp": "1356831847", "value":
+{"count": 1479}},
+{"timestamp": "1348621737", "value":
+{"count": 1464}},
+{"timestamp": "1330474035", "value":
+{"count": 1451}},
+{"timestamp": "1352570045", "value":
+{"count": 1437}},
+{"timestamp": "1364742100", "value":
+{"count": 1441}},
+{"timestamp": "1356445179", "value":
+{"count": 1382}},
+{"timestamp": "1370602575", "value":
+{"count": 1386}},
+{"timestamp": "1348909870", "value":
+{"count": 1385}},
+{"timestamp": "1355088967", "value":
+{"count": 1376}},
+{"timestamp": "1375299812", "value":
+{"count": 1372}},
+{"timestamp": "1358866053", "value":
+{"count": 1363}},
+{"timestamp": "1332759764", "value":
+{"count": 1367}},
+{"timestamp": "1349665627", "value":
+{"count": 1362}},
+{"timestamp": "1354197723", "value":
+{"count": 1358}},
+{"timestamp": "1368561446", "value":
+{"count": 1357}},
+{"timestamp": "1375553351", "value":
+{"count": 1356}},
+{"timestamp": "1354399796", "value":
+{"count": 1348}},
+{"timestamp": "1351189317", "value":
+{"count": 1346}},
+{"timestamp": "1367437482", "value":
+{"count": 1351}},
+{"timestamp": "1342139174", "value":
+{"count": 1344}},
+{"timestamp": "1360106508", "value":
+{"count": 1346}},
+{"timestamp": "1368649845", "value":
+{"count": 1343}},
+{"timestamp": "1347386670", "value":
+{"count": 1334}},
+{"timestamp": "1367705192", "value":
+{"count": 1320}},
+{"timestamp": "1351063468", "value":
+{"count": 1317}},
+{"timestamp": "1365343743", "value":
+{"count": 1313}},
+{"timestamp": "1372112796", "value":
+{"count": 1307}},
+{"timestamp": "1345738815", "value":
+{"count": 1306}},
+{"timestamp": "1339637714", "value":
+{"count": 1313}},
+{"timestamp": "1361876515", "value":
+{"count": 1308}},
+{"timestamp": "1349550013", "value":
+{"count": 1306}},
+{"timestamp": "1325651512", "value":
+{"count": 1295}},
+{"timestamp": "1346649730", "value":
+{"count": 1294}},
+{"timestamp": "1367285159", "value":
+{"count": 1286}},
+{"timestamp": "1337202197", "value":
+{"count": 1285}},
+{"timestamp": "1361240532", "value":
+{"count": 1283}},
+{"timestamp": "1373997993", "value":
+{"count": 1274}},
+{"timestamp": "1345286766", "value":
+{"count": 1266}},
+{"timestamp": "1375228252", "value":
+{"count": 1256}},
+{"timestamp": "1366763059", "value":
+{"count": 1244}},
+{"timestamp": "1375630846", "value":
+{"count": 1244}},
+{"timestamp": "1369241603", "value":
+{"count": 1243}},
+{"timestamp": "1372334748", "value":
+{"count": 1240}},
+{"timestamp": "1369641628", "value":
+{"count": 1240}},
+{"timestamp": "1368350151", "value":
+{"count": 1237}},
+{"timestamp": "1364404163", "value":
+{"count": 1240}},
+{"timestamp": "1371360695", "value":
+{"count": 1236}},
+{"timestamp": "1351003080", "value":
+{"count": 1234}},
+{"timestamp": "1366930864", "value":
+{"count": 1239}},
+{"timestamp": "1362251071", "value":
+{"count": 1225}},
+{"timestamp": "1374111217", "value":
+{"count": 1216}},
+{"timestamp": "1357372501", "value":
+{"count": 1216}},
+{"timestamp": "1351808733", "value":
+{"count": 1222}},
+{"timestamp": "1370737060", "value":
+{"count": 1207}},
+{"timestamp": "1376196148", "value":
+{"count": 1209}},
+{"timestamp": "1368945129", "value":
+{"count": 1195}},
+{"timestamp": "1368516019", "value":
+{"count": 1195}},
+{"timestamp": "1341000945", "value":
+{"count": 1192}},
+{"timestamp": "1343736317", "value":
+{"count": 1184}},
+{"timestamp": "1333253374", "value":
+{"count": 1185}},
+{"timestamp": "1369337465", "value":
+{"count": 1178}},
+{"timestamp": "1343656019", "value":
+{"count": 1184}},
+{"timestamp": "1332521912", "value":
+{"count": 1175}},
+{"timestamp": "1334694049", "value":
+{"count": 1173}},
+{"timestamp": "1363422065", "value":
+{"count": 1178}},
+{"timestamp": "1332109872", "value":
+{"count": 1169}},
+{"timestamp": "1355411861", "value":
+{"count": 1166}},
+{"timestamp": "1365865277", "value":
+{"count": 1164}},
+{"timestamp": "1346155981", "value":
+{"count": 1164}},
+{"timestamp": "1361098840", "value":
+{"count": 1153}},
+{"timestamp": "1342017303", "value":
+{"count": 1154}},
+{"timestamp": "1347928222", "value":
+{"count": 1156}},
+{"timestamp": "1374749094", "value":
+{"count": 1153}},
+{"timestamp": "1374355488", "value":
+{"count": 1151}},
+{"timestamp": "1372222748", "value":
+{"count": 1141}},
+{"timestamp": "1354828944", "value":
+{"count": 1142}},
+{"timestamp": "1365547439", "value":
+{"count": 1142}},
+{"timestamp": "1374245133", "value":
+{"count": 1129}},
+{"timestamp": "1359919648", "value":
+{"count": 1123}},
+{"timestamp": "1372179609", "value":
+{"count": 1120}},
+{"timestamp": "1351697903", "value":
+{"count": 1127}},
+{"timestamp": "1342113303", "value":
+{"count": 1125}},
+{"timestamp": "1364222830", "value":
+{"count": 1122}},
+{"timestamp": "1365704983", "value":
+{"count": 1116}},
+{"timestamp": "1370185831", "value":
+{"count": 1118}},
+{"timestamp": "1338232733", "value":
+{"count": 1119}},
+{"timestamp": "1340366723", "value":
+{"count": 1110}},
+{"timestamp": "1365027811", "value":
+{"count": 1112}},
+{"timestamp": "1369165373", "value":
+{"count": 1113}},
+{"timestamp": "1368742259", "value":
+{"count": 1098}},
+{"timestamp": "1360737515", "value":
+{"count": 1097}},
+{"timestamp": "1345935703", "value":
+{"count": 1096}},
+{"timestamp": "1357745527", "value":
+{"count": 1092}},
+{"timestamp": "1365088734", "value":
+{"count": 1088}},
+{"timestamp": "1374179730", "value":
+{"count": 1089}},
+{"timestamp": "1366896523", "value":
+{"count": 1094}},
+{"timestamp": "1363355260", "value":
+{"count": 1092}},
+{"timestamp": "1356922731", "value":
+{"count": 1084}},
+{"timestamp": "1370531134", "value":
+{"count": 1082}},
+{"timestamp": "1355580892", "value":
+{"count": 1084}},
+{"timestamp": "1346777040", "value":
+{"count": 1081}},
+{"timestamp": "1358065084", "value":
+{"count": 1086}},
+{"timestamp": "1361300696", "value":
+{"count": 1079}},
+{"timestamp": "1330390351", "value":
+{"count": 1084}},
+{"timestamp": "1350441936", "value":
+{"count": 1073}},
+{"timestamp": "1353614982", "value":
+{"count": 1076}},
+{"timestamp": "1375447732", "value":
+{"count": 1068}},
+{"timestamp": "1340558494", "value":
+{"count": 1065}},
+{"timestamp": "1353961556", "value":
+{"count": 1059}},
+{"timestamp": "1346613962", "value":
+{"count": 1055}},
+{"timestamp": "1361809316", "value":
+{"count": 1059}},
+{"timestamp": "1372650011", "value":
+{"count": 1051}},
+{"timestamp": "1354574643", "value":
+{"count": 1054}},
+{"timestamp": "1346077968", "value":
+{"count": 1052}},
+{"timestamp": "1370452556", "value":
+{"count": 1053}},
+{"timestamp": "1369515910", "value":
+{"count": 1052}},
+{"timestamp": "1363647402", "value":
+{"count": 1051}},
+{"timestamp": "1363500940", "value":
+{"count": 1055}},
+{"timestamp": "1349920405", "value":
+{"count": 1050}},
+{"timestamp": "1348500372", "value":
+{"count": 1051}},
+{"timestamp": "1372246148", "value":
+{"count": 1045}},
+{"timestamp": "1369152752", "value":
+{"count": 1037}},
+{"timestamp": "1355728837", "value":
+{"count": 1033}},
+{"timestamp": "1361696532", "value":
+{"count": 1034}},
+{"timestamp": "1375403650", "value":
+{"count": 1033}},
+{"timestamp": "1373141315", "value":
+{"count": 1029}},
+{"timestamp": "1343087572", "value":
+{"count": 1032}},
+{"timestamp": "1370350221", "value":
+{"count": 1031}},
+{"timestamp": "1353235760", "value":
+{"count": 1025}},
+{"timestamp": "1370391287", "value":
+{"count": 1020}},
+{"timestamp": "1345479379", "value":
+{"count": 1023}},
+{"timestamp": "1362746290", "value":
+{"count": 1017}},
+{"timestamp": "1358643866", "value":
+{"count": 1021}},
+{"timestamp": "1371753010", "value":
+{"count": 1015}},
+{"timestamp": "1370751682", "value":
+{"count": 1011}},
+{"timestamp": "1368184190", "value":
+{"count": 1018}},
+{"timestamp": "1335194506", "value":
+{"count": 1015}},
+{"timestamp": "1356623686", "value":
+{"count": 1009}},
+{"timestamp": "1360408212", "value":
+{"count": 1008}},
+{"timestamp": "1369422722", "value":
+{"count": 1005}},
+{"timestamp": "1361564660", "value":
+{"count": 1008}},
+{"timestamp": "1337978504", "value":
+{"count": 1006}},
+{"timestamp": "1347276820", "value":
+{"count": 998}},
+{"timestamp": "1373247834", "value":
+{"count": 995}},
+{"timestamp": "1359405433", "value":
+{"count": 996}},
+{"timestamp": "1353292477", "value":
+{"count": 996}},
+{"timestamp": "1370427386", "value":
+{"count": 990}},
+{"timestamp": "1359476647", "value":
+{"count": 992}},
+{"timestamp": "1369776383", "value":
+{"count": 994}},
+{"timestamp": "1367757674", "value":
+{"count": 980}},
+{"timestamp": "1355335571", "value":
+{"count": 978}},
+{"timestamp": "1358256034", "value":
+{"count": 980}},
+{"timestamp": "1333083560", "value":
+{"count": 972}},
+{"timestamp": "1373298175", "value":
+{"count": 972}},
+{"timestamp": "1357509715", "value":
+{"count": 972}},
+{"timestamp": "1349474385", "value":
+{"count": 962}},
+{"timestamp": "1371408315", "value":
+{"count": 957}},
+{"timestamp": "1347470703", "value":
+{"count": 955}},
+{"timestamp": "1347821656", "value":
+{"count": 963}},
+{"timestamp": "1347523501", "value":
+{"count": 955}},
+{"timestamp": "1376491171", "value":
+{"count": 954}},
+{"timestamp": "1350775629", "value":
+{"count": 957}},
+{"timestamp": "1370282108", "value":
+{"count": 956}},
+{"timestamp": "1363910301", "value":
+{"count": 950}},
+{"timestamp": "1374543982", "value":
+{"count": 947}},
+{"timestamp": "1356978816", "value":
+{"count": 948}},
+{"timestamp": "1352315901", "value":
+{"count": 945}},
+{"timestamp": "1328726053", "value":
+{"count": 943}},
+{"timestamp": "1350283829", "value":
+{"count": 943}},
+{"timestamp": "1361322099", "value":
+{"count": 942}},
+{"timestamp": "1374970127", "value":
+{"count": 945}},
+{"timestamp": "1365396383", "value":
+{"count": 945}},
+{"timestamp": "1336487860", "value":
+{"count": 940}},
+{"timestamp": "1360508974", "value":
+{"count": 938}},
+{"timestamp": "1336412949", "value":
+{"count": 937}},
+{"timestamp": "1363034735", "value":
+{"count": 938}},
+{"timestamp": "1364496211", "value":
+{"count": 936}},
+{"timestamp": "1335705251", "value":
+{"count": 932}},
+{"timestamp": "1372281655", "value":
+{"count": 932}},
+{"timestamp": "1368006454", "value":
+{"count": 933}},
+{"timestamp": "1374515468", "value":
+{"count": 928}},
+{"timestamp": "1351270021", "value":
+{"count": 928}},
+{"timestamp": "1357439320", "value":
+{"count": 922}},
+{"timestamp": "1336872645", "value":
+{"count": 924}},
+{"timestamp": "1371132742", "value":
+{"count": 916}},
+{"timestamp": "1371862584", "value":
+{"count": 915}},
+{"timestamp": "1354538218", "value":
+{"count": 918}},
+{"timestamp": "1328832903", "value":
+{"count": 921}},
+{"timestamp": "1364663182", "value":
+{"count": 915}},
+{"timestamp": "1342710718", "value":
+{"count": 911}},
+{"timestamp": "1365165409", "value":
+{"count": 908}},
+{"timestamp": "1351463855", "value":
+{"count": 907}},
+{"timestamp": "1367609263", "value":
+{"count": 907}},
+{"timestamp": "1367528690", "value":
+{"count": 901}},
+{"timestamp": "1346434315", "value":
+{"count": 904}},
+{"timestamp": "1366471791", "value":
+{"count": 903}},
+{"timestamp": "1354639498", "value":
+{"count": 899}},
+{"timestamp": "1352865255", "value":
+{"count": 898}},
+{"timestamp": "1367263086", "value":
+{"count": 894}},
+{"timestamp": "1329567076", "value":
+{"count": 900}},
+{"timestamp": "1336601624", "value":
+{"count": 891}},
+{"timestamp": "1370762775", "value":
+{"count": 891}},
+{"timestamp": "1365297673", "value":
+{"count": 890}},
+{"timestamp": "1374453309", "value":
+{"count": 885}},
+{"timestamp": "1368062176", "value":
+{"count": 889}},
+{"timestamp": "1366128634", "value":
+{"count": 888}},
+{"timestamp": "1350575843", "value":
+{"count": 887}},
+{"timestamp": "1366687528", "value":
+{"count": 891}},
+{"timestamp": "1333346769", "value":
+{"count": 880}},
+{"timestamp": "1376315298", "value":
+{"count": 885}},
+{"timestamp": "1341326940", "value":
+{"count": 882}},
+{"timestamp": "1344420631", "value":
+{"count": 885}},
+{"timestamp": "1373520161", "value":
+{"count": 878}},
+{"timestamp": "1348182528", "value":
+{"count": 879}},
+{"timestamp": "1337160754", "value":
+{"count": 872}},
+{"timestamp": "1358182630", "value":
+{"count": 872}},
+{"timestamp": "1355488592", "value":
+{"count": 870}},
+{"timestamp": "1369597394", "value":
+{"count": 870}},
+{"timestamp": "1335886937", "value":
+{"count": 870}},
+{"timestamp": "1347575565", "value":
+{"count": 871}},
+{"timestamp": "1375986256", "value":
+{"count": 871}},
+{"timestamp": "1350680268", "value":
+{"count": 872}},
+{"timestamp": "1330902935", "value":
+{"count": 872}},
+{"timestamp": "1343307845", "value":
+{"count": 870}},
+{"timestamp": "1361202135", "value":
+{"count": 864}},
+{"timestamp": "1342033525", "value":
+{"count": 869}},
+{"timestamp": "1365885584", "value":
+{"count": 854}},
+{"timestamp": "1353346594", "value":
+{"count": 856}},
+{"timestamp": "1344908765", "value":
+{"count": 860}},
+{"timestamp": "1373253833", "value":
+{"count": 855}},
+{"timestamp": "1333996873", "value":
+{"count": 850}},
+{"timestamp": "1372187056", "value":
+{"count": 848}},
+{"timestamp": "1366151972", "value":
+{"count": 849}},
+{"timestamp": "1335147298", "value":
+{"count": 851}},
+{"timestamp": "1375818482", "value":
+{"count": 842}},
+{"timestamp": "1347996349", "value":
+{"count": 849}},
+{"timestamp": "1341590836", "value":
+{"count": 851}},
+{"timestamp": "1341077090", "value":
+{"count": 847}},
+{"timestamp": "1358444526", "value":
+{"count": 840}},
+{"timestamp": "1344031994", "value":
+{"count": 849}},
+{"timestamp": "1369084329", "value":
+{"count": 847}},
+{"timestamp": "1362968156", "value":
+{"count": 841}},
+{"timestamp": "1359648354", "value":
+{"count": 844}},
+{"timestamp": "1346550792", "value":
+{"count": 842}},
+{"timestamp": "1370039692", "value":
+{"count": 836}},
+{"timestamp": "1349382697", "value":
+{"count": 836}},
+{"timestamp": "1346337052", "value":
+{"count": 836}},
+{"timestamp": "1323238303", "value":
+{"count": 836}},
+{"timestamp": "1360546877", "value":
+{"count": 834}},
+{"timestamp": "1366653407", "value":
+{"count": 826}},
+{"timestamp": "1342803611", "value":
+{"count": 826}},
+{"timestamp": "1352637738", "value":
+{"count": 832}},
+{"timestamp": "1362150814", "value":
+{"count": 826}},
+{"timestamp": "1351968480", "value":
+{"count": 819}},
+{"timestamp": "1373145908", "value":
+{"count": 822}},
+{"timestamp": "1363184409", "value":
+{"count": 822}},
+{"timestamp": "1346867682", "value":
+{"count": 820}},
+{"timestamp": "1368491036", "value":
+{"count": 822}},
+{"timestamp": "1362673499", "value":
+{"count": 824}},
+{"timestamp": "1373917421", "value":
+{"count": 822}},
+{"timestamp": "1370313328", "value":
+{"count": 817}},
+{"timestamp": "1356247782", "value":
+{"count": 819}},
+{"timestamp": "1312590220", "value":
+{"count": 823}},
+{"timestamp": "1360221975", "value":
+{"count": 816}},
+{"timestamp": "1357267932", "value":
+{"count": 808}},
+{"timestamp": "1334264816", "value":
+{"count": 810}},
+{"timestamp": "1344578702", "value":
+{"count": 809}},
+{"timestamp": "1341535183", "value":
+{"count": 808}},
+{"timestamp": "1371276533", "value":
+{"count": 807}},
+{"timestamp": "1368994619", "value":
+{"count": 808}},
+{"timestamp": "1368252396", "value":
+{"count": 811}},
+{"timestamp": "1358719091", "value":
+{"count": 797}},
+{"timestamp": "1319767963", "value":
+{"count": 800}},
+{"timestamp": "1329151845", "value":
+{"count": 797}},
+{"timestamp": "1366043009", "value":
+{"count": 797}},
+{"timestamp": "1364578677", "value":
+{"count": 800}},
+{"timestamp": "1339126105", "value":
+{"count": 797}},
+{"timestamp": "1358384362", "value":
+{"count": 795}},
+{"timestamp": "1356987945", "value":
+{"count": 798}},
+{"timestamp": "1361463183", "value":
+{"count": 792}},
+{"timestamp": "1368112915", "value":
+{"count": 796}},
+{"timestamp": "1366810959", "value":
+{"count": 793}},
+{"timestamp": "1347207425", "value":
+{"count": 792}},
+{"timestamp": "1368840233", "value":
+{"count": 789}},
+{"timestamp": "1367795075", "value":
+{"count": 785}},
+{"timestamp": "1358813638", "value":
+{"count": 788}},
+{"timestamp": "1343051571", "value":
+{"count": 778}},
+{"timestamp": "1335642717", "value":
+{"count": 783}},
+{"timestamp": "1329256380", "value":
+{"count": 780}},
+{"timestamp": "1352921759", "value":
+{"count": 777}},
+{"timestamp": "1335383806", "value":
+{"count": 775}},
+{"timestamp": "1373642529", "value":
+{"count": 774}},
+{"timestamp": "1362947923", "value":
+{"count": 776}},
+{"timestamp": "1373380671", "value":
+{"count": 775}},
+{"timestamp": "1332692540", "value":
+{"count": 769}},
+{"timestamp": "1364872477", "value":
+{"count": 769}},
+{"timestamp": "1363613789", "value":
+{"count": 774}},
+{"timestamp": "1369032977", "value":
+{"count": 768}},
+{"timestamp": "1373440154", "value":
+{"count": 773}},
+{"timestamp": "1368472287", "value":
+{"count": 765}},
+{"timestamp": "1355254752", "value":
+{"count": 768}},
+{"timestamp": "1376049516", "value":
+{"count": 767}},
+{"timestamp": "1342439606", "value":
+{"count": 764}},
+{"timestamp": "1329377477", "value":
+{"count": 759}},
+{"timestamp": "1373572089", "value":
+{"count": 761}},
+{"timestamp": "1357839503", "value":
+{"count": 761}},
+{"timestamp": "1360825239", "value":
+{"count": 756}},
+{"timestamp": "1340113630", "value":
+{"count": 758}},
+{"timestamp": "1333721015", "value":
+{"count": 758}},
+{"timestamp": "1373007124", "value":
+{"count": 761}},
+{"timestamp": "1343955735", "value":
+{"count": 752}},
+{"timestamp": "1328954539", "value":
+{"count": 754}},
+{"timestamp": "1373047405", "value":
+{"count": 749}},
+{"timestamp": "1345836737", "value":
+{"count": 754}},
+{"timestamp": "1374852930", "value":
+{"count": 749}},
+{"timestamp": "1356919412", "value":
+{"count": 751}},
+{"timestamp": "1328243729", "value":
+{"count": 751}},
+{"timestamp": "1370807142", "value":
+{"count": 748}},
+{"timestamp": "1332284121", "value":
+{"count": 748}},
+{"timestamp": "1343591295", "value":
+{"count": 747}},
+{"timestamp": "1356598504", "value":
+{"count": 741}},
+{"timestamp": "1342565312", "value":
+{"count": 744}},
+{"timestamp": "1341709567", "value":
+{"count": 743}},
+{"timestamp": "1366846902", "value":
+{"count": 738}},
+{"timestamp": "1364995789", "value":
+{"count": 738}},
+{"timestamp": "1305865168", "value":
+{"count": 738}},
+{"timestamp": "1360266192", "value":
+{"count": 740}},
+{"timestamp": "1359995817", "value":
+{"count": 733}},
+{"timestamp": "1337856684", "value":
+{"count": 735}},
+{"timestamp": "1352551870", "value":
+{"count": 738}},
+{"timestamp": "1375969681", "value":
+{"count": 730}},
+{"timestamp": "1357729610", "value":
+{"count": 732}},
+{"timestamp": "1327771089", "value":
+{"count": 733}},
+{"timestamp": "1364286210", "value":
+{"count": 728}},
+{"timestamp": "1351220701", "value":
+{"count": 736}},
+{"timestamp": "1337101105", "value":
+{"count": 730}},
+{"timestamp": "1374990463", "value":
+{"count": 725}},
+{"timestamp": "1357159902", "value":
+{"count": 732}},
+{"timestamp": "1362631895", "value":
+{"count": 723}},
+{"timestamp": "1360124414", "value":
+{"count": 729}},
+{"timestamp": "1351520199", "value":
+{"count": 725}},
+{"timestamp": "1345782552", "value":
+{"count": 724}},
+{"timestamp": "1344615824", "value":
+{"count": 723}},
+{"timestamp": "1360970789", "value":
+{"count": 724}},
+{"timestamp": "1342376823", "value":
+{"count": 723}},
+{"timestamp": "1372077109", "value":
+{"count": 725}},
+{"timestamp": "1371018855", "value":
+{"count": 719}},
+{"timestamp": "1338425363", "value":
+{"count": 723}},
+{"timestamp": "1368902282", "value":
+{"count": 722}},
+{"timestamp": "1367370418", "value":
+{"count": 727}},
+{"timestamp": "1369159997", "value":
+{"count": 719}},
+{"timestamp": "1339345205", "value":
+{"count": 722}},
+{"timestamp": "1359870074", "value":
+{"count": 720}},
+{"timestamp": "1354982981", "value":
+{"count": 714}},
+{"timestamp": "1354755687", "value":
+{"count": 714}},
+{"timestamp": "1323809182", "value":
+{"count": 717}},
+{"timestamp": "1320156597", "value":
+{"count": 716}},
+{"timestamp": "1340899805", "value":
+{"count": 709}},
+{"timestamp": "1367147061", "value":
+{"count": 717}},
+{"timestamp": "1369757080", "value":
+{"count": 708}},
+{"timestamp": "1333301103", "value":
+{"count": 706}},
+{"timestamp": "1347751653", "value":
+{"count": 710}},
+{"timestamp": "1360676115", "value":
+{"count": 712}},
+{"timestamp": "1359162793", "value":
+{"count": 702}},
+{"timestamp": "1325296406", "value":
+{"count": 706}},
+{"timestamp": "1373342093", "value":
+{"count": 704}},
+{"timestamp": "1341603778", "value":
+{"count": 704}},
+{"timestamp": "1327636511", "value":
+{"count": 706}},
+{"timestamp": "1353999280", "value":
+{"count": 706}},
+{"timestamp": "1364270367", "value":
+{"count": 704}},
+{"timestamp": "1332973743", "value":
+{"count": 706}},
+{"timestamp": "1334506207", "value":
+{"count": 699}},
+{"timestamp": "1372508117", "value":
+{"count": 696}},
+{"timestamp": "1369955572", "value":
+{"count": 697}},
+{"timestamp": "1341354498", "value":
+{"count": 693}},
+{"timestamp": "1345414558", "value":
+{"count": 690}},
+{"timestamp": "1344645496", "value":
+{"count": 694}},
+{"timestamp": "1308711368", "value":
+{"count": 689}},
+{"timestamp": "1368383939", "value":
+{"count": 693}},
+{"timestamp": "1346033397", "value":
+{"count": 686}},
+{"timestamp": "1338994612", "value":
+{"count": 685}},
+{"timestamp": "1321336056", "value":
+{"count": 688}},
+{"timestamp": "1348693530", "value":
+{"count": 688}},
+{"timestamp": "1371492564", "value":
+{"count": 688}},
+{"timestamp": "1362357794", "value":
+{"count": 690}},
+{"timestamp": "1366733674", "value":
+{"count": 685}},
+{"timestamp": "1356775240", "value":
+{"count": 688}},
+{"timestamp": "1321560725", "value":
+{"count": 681}},
+{"timestamp": "1360516329", "value":
+{"count": 685}},
+{"timestamp": "1341145832", "value":
+{"count": 683}},
+{"timestamp": "1347770577", "value":
+{"count": 685}},
+{"timestamp": "1371948252", "value":
+{"count": 681}},
+{"timestamp": "1359954062", "value":
+{"count": 679}},
+{"timestamp": "1319095485", "value":
+{"count": 674}},
+{"timestamp": "1364089779", "value":
+{"count": 681}},
+{"timestamp": "1335362906", "value":
+{"count": 679}},
+{"timestamp": "1363566493", "value":
+{"count": 675}},
+{"timestamp": "1340844740", "value":
+{"count": 675}},
+{"timestamp": "1373087526", "value":
+{"count": 672}},
+{"timestamp": "1362297816", "value":
+{"count": 672}},
+{"timestamp": "1376145019", "value":
+{"count": 676}},
+{"timestamp": "1333254658", "value":
+{"count": 672}},
+{"timestamp": "1370697567", "value":
+{"count": 668}},
+{"timestamp": "1361948124", "value":
+{"count": 667}},
+{"timestamp": "1371833254", "value":
+{"count": 675}},
+{"timestamp": "1365644923", "value":
+{"count": 666}},
+{"timestamp": "1339067946", "value":
+{"count": 669}},
+{"timestamp": "1334533170", "value":
+{"count": 672}},
+{"timestamp": "1373876725", "value":
+{"count": 671}},
+{"timestamp": "1358260469", "value":
+{"count": 671}},
+{"timestamp": "1357794390", "value":
+{"count": 671}},
+{"timestamp": "1344279070", "value":
+{"count": 665}},
+{"timestamp": "1328045428", "value":
+{"count": 672}},
+{"timestamp": "1342963794", "value":
+{"count": 665}},
+{"timestamp": "1363958714", "value":
+{"count": 667}},
+{"timestamp": "1370969743", "value":
+{"count": 660}},
+{"timestamp": "1355960538", "value":
+{"count": 663}},
+{"timestamp": "1372462646", "value":
+{"count": 667}},
+{"timestamp": "1331175725", "value":
+{"count": 661}},
+{"timestamp": "1357326212", "value":
+{"count": 663}},
+{"timestamp": "1369688066", "value":
+{"count": 664}},
+{"timestamp": "1357929500", "value":
+{"count": 652}},
+{"timestamp": "1316566977", "value":
+{"count": 656}},
+{"timestamp": "1333934339", "value":
+{"count": 656}},
+{"timestamp": "1365894615", "value":
+{"count": 652}},
+{"timestamp": "1374143752", "value":
+{"count": 654}},
+{"timestamp": "1342291267", "value":
+{"count": 653}},
+{"timestamp": "1337528124", "value":
+{"count": 652}},
+{"timestamp": "1333039829", "value":
+{"count": 653}},
+{"timestamp": "1373769952", "value":
+{"count": 652}},
+{"timestamp": "1365686639", "value":
+{"count": 651}},
+{"timestamp": "1348573628", "value":
+{"count": 649}},
+{"timestamp": "1345545739", "value":
+{"count": 653}},
+{"timestamp": "1338702156", "value":
+{"count": 653}},
+{"timestamp": "1338326045", "value":
+{"count": 653}},
+{"timestamp": "1299714921", "value":
+{"count": 654}},
+{"timestamp": "1334887155", "value":
+{"count": 650}},
+{"timestamp": "1331679604", "value":
+{"count": 650}},
+{"timestamp": "1348953783", "value":
+{"count": 651}},
+{"timestamp": "1346525132", "value":
+{"count": 647}},
+{"timestamp": "1373482805", "value":
+{"count": 651}},
+{"timestamp": "1357837307", "value":
+{"count": 650}},
+{"timestamp": "1360399798", "value":
+{"count": 645}},
+{"timestamp": "1358940146", "value":
+{"count": 644}},
+{"timestamp": "1355066767", "value":
+{"count": 645}},
+{"timestamp": "1329849132", "value":
+{"count": 647}},
+{"timestamp": "1365949078", "value":
+{"count": 644}},
+{"timestamp": "1344959888", "value":
+{"count": 638}},
+{"timestamp": "1368735313", "value":
+{"count": 643}},
+{"timestamp": "1340824265", "value":
+{"count": 638}},
+{"timestamp": "1374093881", "value":
+{"count": 637}},
+{"timestamp": "1351310793", "value":
+{"count": 641}},
+{"timestamp": "1350691722", "value":
+{"count": 638}},
+{"timestamp": "1368719333", "value":
+{"count": 639}},
+{"timestamp": "1355927387", "value":
+{"count": 643}},
+{"timestamp": "1371763261", "value":
+{"count": 635}},
+{"timestamp": "1344506868", "value":
+{"count": 633}},
+{"timestamp": "1334592665", "value":
+{"count": 637}},
+{"timestamp": "1350825966", "value":
+{"count": 636}},
+{"timestamp": "1350920555", "value":
+{"count": 639}},
+{"timestamp": "1339449594", "value":
+{"count": 632}},
+{"timestamp": "1361055509", "value":
+{"count": 635}},
+{"timestamp": "1356044849", "value":
+{"count": 634}},
+{"timestamp": "1346894006", "value":
+{"count": 629}},
+{"timestamp": "1346347775", "value":
+{"count": 630}},
+{"timestamp": "1350416011", "value":
+{"count": 636}},
+{"timestamp": "1362420194", "value":
+{"count": 630}},
+{"timestamp": "1357626875", "value":
+{"count": 626}},
+{"timestamp": "1369774393", "value":
+{"count": 627}},
+{"timestamp": "1346001513", "value":
+{"count": 629}},
+{"timestamp": "1358520593", "value":
+{"count": 628}},
+{"timestamp": "1368253803", "value":
+{"count": 625}},
+{"timestamp": "1336944099", "value":
+{"count": 627}},
+{"timestamp": "1329279690", "value":
+{"count": 624}},
+{"timestamp": "1348876149", "value":
+{"count": 626}},
+{"timestamp": "1350292272", "value":
+{"count": 624}},
+{"timestamp": "1359218694", "value":
+{"count": 623}},
+{"timestamp": "1345335507", "value":
+{"count": 622}},
+{"timestamp": "1336562502", "value":
+{"count": 616}},
+{"timestamp": "1337301283", "value":
+{"count": 618}},
+{"timestamp": "1333216360", "value":
+{"count": 613}},
+{"timestamp": "1374516044", "value":
+{"count": 618}},
+{"timestamp": "1365738222", "value":
+{"count": 611}},
+{"timestamp": "1334997690", "value":
+{"count": 615}},
+{"timestamp": "1366683660", "value":
+{"count": 616}},
+{"timestamp": "1360792468", "value":
+{"count": 610}},
+{"timestamp": "1330836064", "value":
+{"count": 615}},
+{"timestamp": "1313969152", "value":
+{"count": 611}},
+{"timestamp": "1349329811", "value":
+{"count": 608}},
+{"timestamp": "1346637176", "value":
+{"count": 610}},
+{"timestamp": "1339532275", "value":
+{"count": 611}},
+{"timestamp": "1359821589", "value":
+{"count": 606}},
+{"timestamp": "1365990677", "value":
+{"count": 612}},
+{"timestamp": "1364045012", "value":
+{"count": 606}},
+{"timestamp": "1353175312", "value":
+{"count": 609}},
+{"timestamp": "1372813744", "value":
+{"count": 608}},
+{"timestamp": "1370226847", "value":
+{"count": 611}},
+{"timestamp": "1350060464", "value":
+{"count": 608}},
+{"timestamp": "1352999901", "value":
+{"count": 604}},
+{"timestamp": "1363838063", "value":
+{"count": 605}},
+{"timestamp": "1372899110", "value":
+{"count": 602}},
+{"timestamp": "1360089668", "value":
+{"count": 604}},
+{"timestamp": "1359427215", "value":
+{"count": 607}},
+{"timestamp": "1348241408", "value":
+{"count": 608}},
+{"timestamp": "1372761383", "value":
+{"count": 604}},
+{"timestamp": "1349886096", "value":
+{"count": 602}},
+{"timestamp": "1358020846", "value":
+{"count": 602}},
+{"timestamp": "1336309250", "value":
+{"count": 601}},
+{"timestamp": "1376523221", "value":
+{"count": 599}},
+{"timestamp": "1363963358", "value":
+{"count": 601}},
+{"timestamp": "1352666839", "value":
+{"count": 603}},
+{"timestamp": "1349134066", "value":
+{"count": 601}},
+{"timestamp": "1332557981", "value":
+{"count": 598}},
+{"timestamp": "1373724607", "value":
+{"count": 601}},
+{"timestamp": "1361734652", "value":
+{"count": 597}},
+{"timestamp": "1361739753", "value":
+{"count": 598}},
+{"timestamp": "1302657853", "value":
+{"count": 602}},
+{"timestamp": "1367099621", "value":
+{"count": 602}},
+{"timestamp": "1364779506", "value":
+{"count": 596}},
+{"timestamp": "1351270831", "value":
+{"count": 596}},
+{"timestamp": "1348427446", "value":
+{"count": 600}},
+{"timestamp": "1350815701", "value":
+{"count": 597}},
+{"timestamp": "1334839604", "value":
+{"count": 594}},
+{"timestamp": "1328920992", "value":
+{"count": 602}},
+{"timestamp": "1369310206", "value":
+{"count": 592}},
+{"timestamp": "1366613133", "value":
+{"count": 592}},
+{"timestamp": "1345127271", "value":
+{"count": 591}},
+{"timestamp": "1345183986", "value":
+{"count": 592}},
+{"timestamp": "1369917000", "value":
+{"count": 587}},
+{"timestamp": "1375755470", "value":
+{"count": 591}},
+{"timestamp": "1340502772", "value":
+{"count": 590}},
+{"timestamp": "1372258311", "value":
+{"count": 588}},
+{"timestamp": "1368707525", "value":
+{"count": 591}},
+{"timestamp": "1363215522", "value":
+{"count": 591}},
+{"timestamp": "1333653292", "value":
+{"count": 592}},
+{"timestamp": "1312519926", "value":
+{"count": 593}},
+{"timestamp": "1367292369", "value":
+{"count": 587}},
+{"timestamp": "1356725216", "value":
+{"count": 585}},
+{"timestamp": "1370389362", "value":
+{"count": 587}},
+{"timestamp": "1368034541", "value":
+{"count": 581}},
+{"timestamp": "1364826757", "value":
+{"count": 580}},
+{"timestamp": "1342872261", "value":
+{"count": 582}},
+{"timestamp": "1359084154", "value":
+{"count": 579}},
+{"timestamp": "1350104290", "value":
+{"count": 583}},
+{"timestamp": "1341937900", "value":
+{"count": 579}},
+{"timestamp": "1357218603", "value":
+{"count": 580}},
+{"timestamp": "1353439835", "value":
+{"count": 581}},
+{"timestamp": "1345864367", "value":
+{"count": 580}},
+{"timestamp": "1340841963", "value":
+{"count": 584}},
+{"timestamp": "1330546392", "value":
+{"count": 578}},
+{"timestamp": "1375508255", "value":
+{"count": 579}},
+{"timestamp": "1371573828", "value":
+{"count": 575}},
+{"timestamp": "1335914185", "value":
+{"count": 577}},
+{"timestamp": "1348684684", "value":
+{"count": 575}},
+{"timestamp": "1339963032", "value":
+{"count": 573}},
+{"timestamp": "1314200032", "value":
+{"count": 581}},
+{"timestamp": "1362347570", "value":
+{"count": 575}},
+{"timestamp": "1357847523", "value":
+{"count": 574}},
+{"timestamp": "1330040118", "value":
+{"count": 578}},
+{"timestamp": "1351174875", "value":
+{"count": 569}},
+{"timestamp": "1370556162", "value":
+{"count": 573}},
+{"timestamp": "1369713243", "value":
+{"count": 574}},
+{"timestamp": "1363350225", "value":
+{"count": 569}},
+{"timestamp": "1357667863", "value":
+{"count": 572}},
+{"timestamp": "1344226826", "value":
+{"count": 566}},
+{"timestamp": "1356012841", "value":
+{"count": 569}},
+{"timestamp": "1342234417", "value":
+{"count": 565}},
+{"timestamp": "1304438705", "value":
+{"count": 570}},
+{"timestamp": "1343503916", "value":
+{"count": 565}},
+{"timestamp": "1333560291", "value":
+{"count": 567}},
+{"timestamp": "1300317699", "value":
+{"count": 564}},
+{"timestamp": "1355179606", "value":
+{"count": 569}},
+{"timestamp": "1376284430", "value":
+{"count": 560}},
+{"timestamp": "1353090360", "value":
+{"count": 563}},
+{"timestamp": "1348793548", "value":
+{"count": 559}},
+{"timestamp": "1367590468", "value":
+{"count": 555}},
+{"timestamp": "1355852606", "value":
+{"count": 557}},
+{"timestamp": "1341579201", "value":
+{"count": 561}},
+{"timestamp": "1360453098", "value":
+{"count": 558}},
+{"timestamp": "1330109501", "value":
+{"count": 555}},
+{"timestamp": "1322857101", "value":
+{"count": 549}},
+{"timestamp": "1371768832", "value":
+{"count": 550}},
+{"timestamp": "1352062894", "value":
+{"count": 546}},
+{"timestamp": "1370792751", "value":
+{"count": 546}},
+{"timestamp": "1344467866", "value":
+{"count": 548}},
+{"timestamp": "1351616732", "value":
+{"count": 544}},
+{"timestamp": "1338398128", "value":
+{"count": 547}},
+{"timestamp": "1366437631", "value":
+{"count": 542}},
+{"timestamp": "1340990950", "value":
+{"count": 539}},
+{"timestamp": "1369435307", "value":
+{"count": 542}},
+{"timestamp": "1367631854", "value":
+{"count": 546}},
+{"timestamp": "1338016563", "value":
+{"count": 544}},
+{"timestamp": "1357054457", "value":
+{"count": 540}},
+{"timestamp": "1348361668", "value":
+{"count": 545}},
+{"timestamp": "1340947336", "value":
+{"count": 541}},
+{"timestamp": "1371775595", "value":
+{"count": 544}},
+{"timestamp": "1348446779", "value":
+{"count": 538}},
+{"timestamp": "1340291617", "value":
+{"count": 542}},
+{"timestamp": "1326155898", "value":
+{"count": 534}},
+{"timestamp": "1323473493", "value":
+{"count": 538}},
+{"timestamp": "1368682658", "value":
+{"count": 542}},
+{"timestamp": "1351363101", "value":
+{"count": 532}},
+{"timestamp": "1358787678", "value":
+{"count": 529}},
+{"timestamp": "1333158782", "value":
+{"count": 536}},
+{"timestamp": "1327358494", "value":
+{"count": 536}},
+{"timestamp": "1354811960", "value":
+{"count": 531}},
+{"timestamp": "1349970193", "value":
+{"count": 537}},
+{"timestamp": "1338108856", "value":
+{"count": 535}},
+{"timestamp": "1344873391", "value":
+{"count": 533}},
+{"timestamp": "1356671973", "value":
+{"count": 527}},
+{"timestamp": "1343387298", "value":
+{"count": 530}},
+{"timestamp": "1337799498", "value":
+{"count": 531}},
+{"timestamp": "1365623095", "value":
+{"count": 527}},
+{"timestamp": "1341207381", "value":
+{"count": 524}},
+{"timestamp": "1332008564", "value":
+{"count": 529}},
+{"timestamp": "1363729880", "value":
+{"count": 521}},
+{"timestamp": "1363323337", "value":
+{"count": 523}},
+{"timestamp": "1350590510", "value":
+{"count": 523}},
+{"timestamp": "1324149294", "value":
+{"count": 530}},
+{"timestamp": "1320617209", "value":
+{"count": 524}},
+{"timestamp": "1298548643", "value":
+{"count": 527}},
+{"timestamp": "1305979729", "value":
+{"count": 527}},
+{"timestamp": "1345674988", "value":
+{"count": 521}},
+{"timestamp": "1369520611", "value":
+{"count": 521}},
+{"timestamp": "1363649068", "value":
+{"count": 521}},
+{"timestamp": "1371679415", "value":
+{"count": 521}},
+{"timestamp": "1375316750", "value":
+{"count": 524}},
+{"timestamp": "1368755277", "value":
+{"count": 516}},
+{"timestamp": "1355295963", "value":
+{"count": 524}},
+{"timestamp": "1354682235", "value":
+{"count": 518}},
+{"timestamp": "1352693103", "value":
+{"count": 519}},
+{"timestamp": "1347150432", "value":
+{"count": 520}},
+{"timestamp": "1345593653", "value":
+{"count": 516}},
+{"timestamp": "1314291966", "value":
+{"count": 524}},
+{"timestamp": "1345040969", "value":
+{"count": 517}},
+{"timestamp": "1344526498", "value":
+{"count": 513}},
+{"timestamp": "1368915514", "value":
+{"count": 517}},
+{"timestamp": "1337739124", "value":
+{"count": 515}},
+{"timestamp": "1323180373", "value":
+{"count": 516}},
+{"timestamp": "1318951469", "value":
+{"count": 509}},
+{"timestamp": "1315245149", "value":
+{"count": 514}},
+{"timestamp": "1336135718", "value":
+{"count": 516}},
+{"timestamp": "1332874954", "value":
+{"count": 512}},
+{"timestamp": "1351103464", "value":
+{"count": 509}},
+{"timestamp": "1345905005", "value":
+{"count": 511}},
+{"timestamp": "1372731131", "value":
+{"count": 513}},
+{"timestamp": "1367279126", "value":
+{"count": 513}},
+{"timestamp": "1351009136", "value":
+{"count": 511}},
+{"timestamp": "1317173913", "value":
+{"count": 513}},
+{"timestamp": "1350350520", "value":
+{"count": 508}},
+{"timestamp": "1344981522", "value":
+{"count": 513}},
+{"timestamp": "1360188558", "value":
+{"count": 514}},
+{"timestamp": "1346196641", "value":
+{"count": 507}},
+{"timestamp": "1336366478", "value":
+{"count": 511}},
+{"timestamp": "1308535673", "value":
+{"count": 507}},
+{"timestamp": "1367722262", "value":
+{"count": 507}},
+{"timestamp": "1343253564", "value":
+{"count": 510}},
+{"timestamp": "1329413169", "value":
+{"count": 515}},
+{"timestamp": "1352492621", "value":
+{"count": 504}},
+{"timestamp": "1366395539", "value":
+{"count": 506}},
+{"timestamp": "1355589711", "value":
+{"count": 503}},
+{"timestamp": "1371458728", "value":
+{"count": 503}},
+{"timestamp": "1364153802", "value":
+{"count": 503}},
+{"timestamp": "1357387997", "value":
+{"count": 502}},
+{"timestamp": "1330291088", "value":
+{"count": 496}},
+{"timestamp": "1336441200", "value":
+{"count": 504}},
+{"timestamp": "1345220981", "value":
+{"count": 505}},
+{"timestamp": "1335312303", "value":
+{"count": 502}},
+{"timestamp": "1301641576", "value":
+{"count": 502}},
+{"timestamp": "1354526244", "value":
+{"count": 494}},
+{"timestamp": "1317863712", "value":
+{"count": 504}},
+{"timestamp": "1375924163", "value":
+{"count": 496}},
+{"timestamp": "1363889711", "value":
+{"count": 499}},
+{"timestamp": "1349137633", "value":
+{"count": 497}},
+{"timestamp": "1344644061", "value":
+{"count": 501}},
+{"timestamp": "1324822201", "value":
+{"count": 498}},
+{"timestamp": "1373607497", "value":
+{"count": 501}},
+{"timestamp": "1353062652", "value":
+{"count": 496}},
+{"timestamp": "1345093816", "value":
+{"count": 495}},
+{"timestamp": "1314607701", "value":
+{"count": 501}},
+{"timestamp": "1311554194", "value":
+{"count": 491}},
+{"timestamp": "1328994770", "value":
+{"count": 499}},
+{"timestamp": "1324138181", "value":
+{"count": 493}},
+{"timestamp": "1375079105", "value":
+{"count": 501}},
+{"timestamp": "1370124443", "value":
+{"count": 498}},
+{"timestamp": "1360634495", "value":
+{"count": 495}},
+{"timestamp": "1356405472", "value":
+{"count": 489}},
+{"timestamp": "1353123435", "value":
+{"count": 495}},
+{"timestamp": "1372927186", "value":
+{"count": 494}},
+{"timestamp": "1321236068", "value":
+{"count": 493}},
+{"timestamp": "1374035215", "value":
+{"count": 496}},
+{"timestamp": "1367873223", "value":
+{"count": 489}},
+{"timestamp": "1345082684", "value":
+{"count": 496}},
+{"timestamp": "1308605390", "value":
+{"count": 498}},
+{"timestamp": "1332216819", "value":
+{"count": 487}},
+{"timestamp": "1367433952", "value":
+{"count": 490}},
+{"timestamp": "1340658306", "value":
+{"count": 489}},
+{"timestamp": "1340455164", "value":
+{"count": 486}},
+{"timestamp": "1347363494", "value":
+{"count": 490}},
+{"timestamp": "1340170902", "value":
+{"count": 491}},
+{"timestamp": "1336914192", "value":
+{"count": 484}},
+{"timestamp": "1373735650", "value":
+{"count": 490}},
+{"timestamp": "1351775410", "value":
+{"count": 491}},
+{"timestamp": "1352759541", "value":
+{"count": 486}},
+{"timestamp": "1339678907", "value":
+{"count": 480}},
+{"timestamp": "1336512827", "value":
+{"count": 486}},
+{"timestamp": "1327700061", "value":
+{"count": 485}},
+{"timestamp": "1374163516", "value":
+{"count": 489}},
+{"timestamp": "1367990051", "value":
+{"count": 481}},
+{"timestamp": "1343346478", "value":
+{"count": 484}},
+{"timestamp": "1341786644", "value":
+{"count": 487}},
+{"timestamp": "1337019168", "value":
+{"count": 481}},
+{"timestamp": "1331238347", "value":
+{"count": 483}},
+{"timestamp": "1373912492", "value":
+{"count": 479}},
+{"timestamp": "1367341517", "value":
+{"count": 482}},
+{"timestamp": "1338159074", "value":
+{"count": 482}},
+{"timestamp": "1337629203", "value":
+{"count": 477}},
+{"timestamp": "1325961176", "value":
+{"count": 477}},
+{"timestamp": "1324754701", "value":
+{"count": 481}},
+{"timestamp": "1371658822", "value":
+{"count": 478}},
+{"timestamp": "1364700536", "value":
+{"count": 482}},
+{"timestamp": "1356984496", "value":
+{"count": 478}},
+{"timestamp": "1346209043", "value":
+{"count": 475}},
+{"timestamp": "1343156145", "value":
+{"count": 479}},
+{"timestamp": "1340802385", "value":
+{"count": 477}},
+{"timestamp": "1329712754", "value":
+{"count": 479}},
+{"timestamp": "1370259332", "value":
+{"count": 476}},
+{"timestamp": "1366325413", "value":
+{"count": 477}},
+{"timestamp": "1357876574", "value":
+{"count": 476}},
+{"timestamp": "1331928882", "value":
+{"count": 478}},
+{"timestamp": "1329186832", "value":
+{"count": 481}},
+{"timestamp": "1328714810", "value":
+{"count": 478}},
+{"timestamp": "1371626037", "value":
+{"count": 475}},
+{"timestamp": "1345392995", "value":
+{"count": 479}},
+{"timestamp": "1340036286", "value":
+{"count": 473}},
+{"timestamp": "1346003721", "value":
+{"count": 475}},
+{"timestamp": "1370486965", "value":
+{"count": 474}},
+{"timestamp": "1326980811", "value":
+{"count": 470}},
+{"timestamp": "1372701558", "value":
+{"count": 472}},
+{"timestamp": "1372102421", "value":
+{"count": 473}},
+{"timestamp": "1372037059", "value":
+{"count": 470}},
+{"timestamp": "1370755935", "value":
+{"count": 470}},
+{"timestamp": "1347828422", "value":
+{"count": 469}},
+{"timestamp": "1346326594", "value":
+{"count": 470}},
+{"timestamp": "1344338774", "value":
+{"count": 475}},
+{"timestamp": "1309044733", "value":
+{"count": 474}},
+{"timestamp": "1373842160", "value":
+{"count": 467}},
+{"timestamp": "1373343560", "value":
+{"count": 469}},
+{"timestamp": "1360320923", "value":
+{"count": 471}},
+{"timestamp": "1337394672", "value":
+{"count": 468}},
+{"timestamp": "1336749341", "value":
+{"count": 470}},
+{"timestamp": "1352515284", "value":
+{"count": 465}},
+{"timestamp": "1327891089", "value":
+{"count": 464}},
+{"timestamp": "1362581284", "value":
+{"count": 461}},
+{"timestamp": "1361120095", "value":
+{"count": 468}},
+{"timestamp": "1360229483", "value":
+{"count": 463}},
+{"timestamp": "1334922288", "value":
+{"count": 466}},
+{"timestamp": "1332609944", "value":
+{"count": 461}},
+{"timestamp": "1369406030", "value":
+{"count": 468}},
+{"timestamp": "1347123788", "value":
+{"count": 465}},
+{"timestamp": "1360752272", "value":
+{"count": 462}},
+{"timestamp": "1346936479", "value":
+{"count": 460}},
+{"timestamp": "1326502448", "value":
+{"count": 460}},
+{"timestamp": "1365628807", "value":
+{"count": 460}},
+{"timestamp": "1339522192", "value":
+{"count": 461}},
+{"timestamp": "1335035817", "value":
+{"count": 461}},
+{"timestamp": "1347636284", "value":
+{"count": 454}},
+{"timestamp": "1361954590", "value":
+{"count": 459}},
+{"timestamp": "1341958889", "value":
+{"count": 458}},
+{"timestamp": "1349179480", "value":
+{"count": 463}},
+{"timestamp": "1339902818", "value":
+{"count": 455}},
+{"timestamp": "1361157511", "value":
+{"count": 460}},
+{"timestamp": "1332365170", "value":
+{"count": 457}},
+{"timestamp": "1329998310", "value":
+{"count": 453}},
+{"timestamp": "1312000918", "value":
+{"count": 454}},
+{"timestamp": "1348840533", "value":
+{"count": 462}},
+{"timestamp": "1340671617", "value":
+{"count": 458}},
+{"timestamp": "1339563378", "value":
+{"count": 461}},
+{"timestamp": "1334100425", "value":
+{"count": 456}},
+{"timestamp": "1340272725", "value":
+{"count": 454}},
+{"timestamp": "1347506088", "value":
+{"count": 456}},
+{"timestamp": "1331619406", "value":
+{"count": 455}},
+{"timestamp": "1373177517", "value":
+{"count": 451}},
+{"timestamp": "1360435609", "value":
+{"count": 455}},
+{"timestamp": "1352420026", "value":
+{"count": 451}},
+{"timestamp": "1349209402", "value":
+{"count": 449}},
+{"timestamp": "1372332180", "value":
+{"count": 453}},
+{"timestamp": "1347107384", "value":
+{"count": 448}},
+{"timestamp": "1346833893", "value":
+{"count": 451}},
+{"timestamp": "1343834899", "value":
+{"count": 452}},
+{"timestamp": "1333602378", "value":
+{"count": 449}},
+{"timestamp": "1318545897", "value":
+{"count": 455}},
+{"timestamp": "1370893677", "value":
+{"count": 446}},
+{"timestamp": "1336963326", "value":
+{"count": 452}},
+{"timestamp": "1333819227", "value":
+{"count": 446}},
+{"timestamp": "1310434455", "value":
+{"count": 450}},
+{"timestamp": "1327331483", "value":
+{"count": 447}},
+{"timestamp": "1326935749", "value":
+{"count": 448}},
+{"timestamp": "1346282735", "value":
+{"count": 448}},
+{"timestamp": "1336759931", "value":
+{"count": 449}},
+{"timestamp": "1316459024", "value":
+{"count": 449}},
+{"timestamp": "1357106987", "value":
+{"count": 442}},
+{"timestamp": "1336172872", "value":
+{"count": 442}},
+{"timestamp": "1319898052", "value":
+{"count": 448}},
+{"timestamp": "1364846461", "value":
+{"count": 446}},
+{"timestamp": "1358764689", "value":
+{"count": 442}},
+{"timestamp": "1355825498", "value":
+{"count": 443}},
+{"timestamp": "1340144199", "value":
+{"count": 443}},
+{"timestamp": "1336407504", "value":
+{"count": 446}},
+{"timestamp": "1334725343", "value":
+{"count": 446}},
+{"timestamp": "1369206195", "value":
+{"count": 442}},
+{"timestamp": "1342182010", "value":
+{"count": 447}},
+{"timestamp": "1343662331", "value":
+{"count": 442}},
+{"timestamp": "1367507537", "value":
+{"count": 438}},
+{"timestamp": "1343690969", "value":
+{"count": 445}},
+{"timestamp": "1342493352", "value":
+{"count": 444}},
+{"timestamp": "1339739285", "value":
+{"count": 440}},
+{"timestamp": "1373153774", "value":
+{"count": 441}},
+{"timestamp": "1372587891", "value":
+{"count": 441}},
+{"timestamp": "1356882537", "value":
+{"count": 438}},
+{"timestamp": "1341473639", "value":
+{"count": 434}},
+{"timestamp": "1335260451", "value":
+{"count": 441}},
+{"timestamp": "1300966641", "value":
+{"count": 435}},
+{"timestamp": "1373215015", "value":
+{"count": 442}},
+{"timestamp": "1371096858", "value":
+{"count": 433}},
+{"timestamp": "1369076945", "value":
+{"count": 443}},
+{"timestamp": "1364294772", "value":
+{"count": 441}},
+{"timestamp": "1339794531", "value":
+{"count": 434}},
+{"timestamp": "1322289574", "value":
+{"count": 443}},
+{"timestamp": "1358817127", "value":
+{"count": 439}},
+{"timestamp": "1338655879", "value":
+{"count": 441}},
+{"timestamp": "1336900870", "value":
+{"count": 439}},
+{"timestamp": "1311733716", "value":
+{"count": 433}},
+{"timestamp": "1374694700", "value":
+{"count": 438}},
+{"timestamp": "1372912933", "value":
+{"count": 435}},
+{"timestamp": "1349869008", "value":
+{"count": 437}},
+{"timestamp": "1356060147", "value":
+{"count": 435}},
+{"timestamp": "1344188270", "value":
+{"count": 436}},
+{"timestamp": "1367550368", "value":
+{"count": 434}},
+{"timestamp": "1340740663", "value":
+{"count": 432}},
+{"timestamp": "1330620355", "value":
+{"count": 432}},
+{"timestamp": "1316628827", "value":
+{"count": 437}},
+{"timestamp": "1340756072", "value":
+{"count": 430}},
+{"timestamp": "1339391085", "value":
+{"count": 432}},
+{"timestamp": "1323392216", "value":
+{"count": 433}},
+{"timestamp": "1368159488", "value":
+{"count": 428}},
+{"timestamp": "1338572490", "value":
+{"count": 434}},
+{"timestamp": "1365313181", "value":
+{"count": 427}},
+{"timestamp": "1310139888", "value":
+{"count": 427}},
+{"timestamp": "1349011260", "value":
+{"count": 434}},
+{"timestamp": "1321815408", "value":
+{"count": 429}},
+{"timestamp": "1367286833", "value":
+{"count": 423}},
+{"timestamp": "1327348943", "value":
+{"count": 430}},
+{"timestamp": "1325808342", "value":
+{"count": 430}},
+{"timestamp": "1363286780", "value":
+{"count": 420}},
+{"timestamp": "1374363253", "value":
+{"count": 426}},
+{"timestamp": "1348985115", "value":
+{"count": 422}},
+{"timestamp": "1329940066", "value":
+{"count": 426}},
+{"timestamp": "1371085344", "value":
+{"count": 420}},
+{"timestamp": "1334771684", "value":
+{"count": 427}},
+{"timestamp": "1355041969", "value":
+{"count": 417}},
+{"timestamp": "1372588488", "value":
+{"count": 421}},
+{"timestamp": "1364326560", "value":
+{"count": 426}},
+{"timestamp": "1338850925", "value":
+{"count": 427}},
+{"timestamp": "1335809286", "value":
+{"count": 426}},
+{"timestamp": "1374613383", "value":
+{"count": 421}},
+{"timestamp": "1346250124", "value":
+{"count": 419}},
+{"timestamp": "1343928910", "value":
+{"count": 422}},
+{"timestamp": "1353401161", "value":
+{"count": 426}},
+{"timestamp": "1329627015", "value":
+{"count": 421}},
+{"timestamp": "1328186192", "value":
+{"count": 416}},
+{"timestamp": "1310700659", "value":
+{"count": 426}},
+{"timestamp": "1361368228", "value":
+{"count": 420}},
+{"timestamp": "1373525929", "value":
+{"count": 419}},
+{"timestamp": "1372870450", "value":
+{"count": 413}},
+{"timestamp": "1340382963", "value":
+{"count": 423}},
+{"timestamp": "1332451200", "value":
+{"count": 419}},
+{"timestamp": "1322659299", "value":
+{"count": 417}},
+{"timestamp": "1370115954", "value":
+{"count": 419}},
+{"timestamp": "1349521446", "value":
+{"count": 416}},
+{"timestamp": "1332442306", "value":
+{"count": 417}},
+{"timestamp": "1328534560", "value":
+{"count": 416}},
+{"timestamp": "1376332619", "value":
+{"count": 414}},
+{"timestamp": "1376104681", "value":
+{"count": 418}},
+{"timestamp": "1350545831", "value":
+{"count": 413}},
+{"timestamp": "1335973032", "value":
+{"count": 418}},
+{"timestamp": "1368914901", "value":
+{"count": 412}},
+{"timestamp": "1368309229", "value":
+{"count": 417}},
+{"timestamp": "1345644720", "value":
+{"count": 421}},
+{"timestamp": "1335579914", "value":
+{"count": 419}},
+{"timestamp": "1324377265", "value":
+{"count": 414}},
+{"timestamp": "1336514768", "value":
+{"count": 415}},
+{"timestamp": "1335826023", "value":
+{"count": 409}},
+{"timestamp": "1316705778", "value":
+{"count": 411}},
+{"timestamp": "1348102525", "value":
+{"count": 410}},
+{"timestamp": "1346992654", "value":
+{"count": 414}},
+{"timestamp": "1340385961", "value":
+{"count": 416}},
+{"timestamp": "1335766037", "value":
+{"count": 408}},
+{"timestamp": "1347659758", "value":
+{"count": 410}},
+{"timestamp": "1352235343", "value":
+{"count": 414}},
+{"timestamp": "1345665782", "value":
+{"count": 406}},
+{"timestamp": "1343169355", "value":
+{"count": 411}},
+{"timestamp": "1338329664", "value":
+{"count": 405}},
+{"timestamp": "1311443166", "value":
+{"count": 412}},
+{"timestamp": "1372421222", "value":
+{"count": 410}},
+{"timestamp": "1349449813", "value":
+{"count": 408}},
+{"timestamp": "1341601100", "value":
+{"count": 410}},
+{"timestamp": "1334379124", "value":
+{"count": 411}},
+{"timestamp": "1364616391", "value":
+{"count": 404}},
+{"timestamp": "1359165655", "value":
+{"count": 409}},
+{"timestamp": "1335308913", "value":
+{"count": 401}},
+{"timestamp": "1375730561", "value":
+{"count": 406}},
+{"timestamp": "1367710112", "value":
+{"count": 407}},
+{"timestamp": "1365624195", "value":
+{"count": 405}},
+{"timestamp": "1343964559", "value":
+{"count": 404}},
+{"timestamp": "1341256617", "value":
+{"count": 405}},
+{"timestamp": "1338187498", "value":
+{"count": 407}},
+{"timestamp": "1324291607", "value":
+{"count": 405}},
+{"timestamp": "1322782538", "value":
+{"count": 402}},
+{"timestamp": "1320015473", "value":
+{"count": 406}},
+{"timestamp": "1368627796", "value":
+{"count": 405}},
+{"timestamp": "1339023167", "value":
+{"count": 404}},
+{"timestamp": "1310585924", "value":
+{"count": 403}},
+{"timestamp": "1331041726", "value":
+{"count": 399}},
+{"timestamp": "1339865448", "value":
+{"count": 404}},
+{"timestamp": "1341120502", "value":
+{"count": 403}},
+{"timestamp": "1325792879", "value":
+{"count": 402}},
+{"timestamp": "1318124246", "value":
+{"count": 398}},
+{"timestamp": "1364964425", "value":
+{"count": 395}},
+{"timestamp": "1342369570", "value":
+{"count": 402}},
+{"timestamp": "1341156918", "value":
+{"count": 400}},
+{"timestamp": "1336611281", "value":
+{"count": 393}},
+{"timestamp": "1335428007", "value":
+{"count": 399}},
+{"timestamp": "1328376029", "value":
+{"count": 392}},
+{"timestamp": "1351581959", "value":
+{"count": 398}},
+{"timestamp": "1327613652", "value":
+{"count": 393}},
+{"timestamp": "1376244824", "value":
+{"count": 394}},
+{"timestamp": "1367629555", "value":
+{"count": 397}},
+{"timestamp": "1362077013", "value":
+{"count": 396}},
+{"timestamp": "1349230044", "value":
+{"count": 394}},
+{"timestamp": "1330691203", "value":
+{"count": 395}},
+{"timestamp": "1328455942", "value":
+{"count": 400}},
+{"timestamp": "1305400765", "value":
+{"count": 391}},
+{"timestamp": "1376529411", "value":
+{"count": 356}}]
+}
