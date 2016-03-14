@@ -223,3 +223,4 @@ pip-log.txt
 *.scssc
 lib/css/style.css.map
 lib/css/style.css.map
+*.scssc
