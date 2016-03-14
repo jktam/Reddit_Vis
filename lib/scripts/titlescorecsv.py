@@ -8,7 +8,7 @@ with open(top101) as f:
     content = [line.rstrip('\n') for line in f]
 
 titlescore = defaultdict(int)
-fieldname = ['title','score']
+fieldname = ['created_utc','score','title']
 # for file in dirs:
 for file in content:
     print(file)
@@ -18,11 +18,11 @@ for file in content:
         with open("C:/Users/James/Desktop/Reddit_Vis/lib/data/"+file+".csv", 'r', encoding="utf-8") as inf:
             rd = csv.DictReader(inf)
             rows = [row for row in rd]
-            with open("C:/Users/James/Desktop/Reddit_Vis/lib/titlescore_csv/"+file+".csv", 'w', encoding="utf-8", newline='') as outf:
+            with open("C:/Users/James/Desktop/Reddit_Vis/lib/titlescoredate_csv/"+file+".csv", 'w', encoding="utf-8", newline='') as outf:
                 wr = csv.DictWriter(outf,fieldnames=fieldname)
                 wr.writeheader()
                 for row in rows:
-                    wr.writerow({'title': row['title'],'score': row['score']})
+                    wr.writerow({'created_utc': row['created_utc'],'score': row['score'],'title': row['title']})
     except:
         print(file+".csv does not exist. skipping.")
         continue;

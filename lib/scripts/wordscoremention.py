@@ -7,18 +7,20 @@ top101 = "C:/Users/James/Desktop/Reddit_Vis/lib/scripts/top101subs.txt"
 with open(top101) as f:
     content = [line.rstrip('\n') for line in f]
 
-wordscore = defaultdict(int)
-wordmentions = defaultdict(int)
+
 fieldname = ['word','score','mentions']
 # for file in dirs:
 for file in content:
     print(file)
+    wordscore = defaultdict(int)
+    wordmentions = defaultdict(int)
     words = []
     count = 0
     try:
         with open("C:/Users/James/Desktop/Reddit_Vis/lib/data/"+file+".csv", 'r', encoding="utf-8") as inf:
             rd = csv.DictReader(inf)
             rows = [row for row in rd]
+            words.clear()
         for row in rows:
             split_list = row['title'].split()
             for s in split_list:
