@@ -10,16 +10,16 @@ Bubbles = () ->
   # standard variables accessible to
   # the rest of the functions inside Bubbles
   width = screen.width
-  height = screen.height/3#510
+  height = screen.height/2.7#510
   data = []
   node = null
   label = null
   margin = {top: 5, right: 0, bottom: 0, left: 100}
   # largest size for our bubbles
-  maxRadius = 50
+  maxRadius = 70
 
   # this scale will be used to size our bubbles
-  rScale = d3.scale.sqrt().range([15,maxRadius])
+  rScale = d3.scale.sqrt().range([20,maxRadius])
   
   # I've abstracted the data value used to size each
   # into its own function. This should make it easy
@@ -555,7 +555,7 @@ $ ->
       $('#autocomp').val ui.item.value
       false
     select: (event, ui) ->
-      d3.csv "titlescoredate_csv/"+ui.item.value+".csv", (data) ->
+      d3.csv "data/titlescoredate_csv/"+ui.item.value+".csv", (data) ->
         window.titleList = data
       window.curSubreddit = ui.item.value
       d3.select("svg").remove()
@@ -563,7 +563,7 @@ $ ->
       d3.select("#heatmapsvg").remove()
 
       plot = Bubbles()
-      d3.csv("tfidf_csv/"+ui.item.value+".csv", display)
+      d3.csv("data/tfidf_csv/"+ui.item.value+".csv", display)
       drawBar(ui.item.value)
       drawheat(ui.item.value)
       d3.select('#titlelist').html("")
@@ -669,7 +669,7 @@ drawheat = (csvName) ->
     '11p'
     '12p'
   ]
-  filename = 'timescore_csv/' + csvName + '.csv'
+  filename = 'data/timescore_csv/' + csvName + '.csv'
   d3.csv filename, ((d) ->
     {
       day: +d.day
@@ -758,7 +758,7 @@ drawBar = (csvName) ->
     d
 
   svg2.call tip
-  filename = 'topwords4_csv/'  + csvName + ".csv"
+  filename = 'data/topwords4_csv/'  + csvName + ".csv"
   d3.csv filename, type, (error, data) ->
     x.domain data.map((d) ->
       d.word
