@@ -353,11 +353,11 @@ th, td {
   border: 0;
 }
 
-#titlelist {
+#titlelist, #historylist {
   padding: 80px;
 }
 
-#titletable {
+#titletable, #historytable {
   width: 100%;
   letter-spacing: .10em;
   font-family: 'DINNeuzeitGroteskLTW01- 812426', sans-serif;

@@ -1,7 +1,9 @@
 ###################################################################################################################
 window.titleList = undefined
 window.titleArray = []
-
+window.curSubreddit = undefined
+window.historyHeader = "<table id = \"historytable\"> <tr><th>Visited Subreddit</th><th>Word Selected</th> </tr> " 
+window.historyList = ""
 root = exports ? this
 reset = false
 Bubbles = () ->
@@ -413,11 +415,7 @@ Bubbles = () ->
   # return the chart function we have created
   return chart
 
-# ---
-# Helper function that simplifies the calling
-# of our chart with it's data and div selector
-# specified
-# ---
+
 root.plotData = (selector, data, plot) ->
   d3.select(selector)
     .datum(data)
@@ -436,6 +434,8 @@ root.updateList = (d) ->
   )
   selectedtext = selectedtext + "</table>"
   d3.select('#titlelist').html(selectedtext)
+  window.historyList = "<tr><td>" + window.curSubreddit + "</td><td>" + d.word + "</td></tr>" +window.historyList  
+  d3.select('#historylist').html(window.historyHeader + window.historyList)
 ###################################################################################################################
 # var current_sub = "AskReddit";
 $ ->
@@ -557,6 +557,7 @@ $ ->
     select: (event, ui) ->
       d3.csv "titlescoredate_csv/"+ui.item.value+".csv", (data) ->
         window.titleList = data
+      window.curSubreddit = ui.item.value
       d3.select("svg").remove()
       d3.select("#barchartsvg").remove()
       d3.select("#heatmapsvg").remove()
@@ -565,10 +566,13 @@ $ ->
       d3.csv("tfidf_csv/"+ui.item.value+".csv", display)
       drawBar(ui.item.value)
       drawheat(ui.item.value)
+      d3.select('#titlelist').html("")
+
 
       false
 
   plot = Bubbles()
+  d3.select('#historylist').html(window.historyHeader)
 
   # ---
   # function that is called when
