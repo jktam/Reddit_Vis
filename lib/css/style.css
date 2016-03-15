@@ -132,6 +132,10 @@
   font-size: 125%;
 }
 
+h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .usermenu {
   margin: 20px auto;
   text-align: center;
